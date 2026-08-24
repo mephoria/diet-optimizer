@@ -1,0 +1,5 @@
+1. Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
+2. Remember past meals and penalize accordingly
+3. Update fridge to favor left over product
+4. Context window? Compute for the next week/next day/next month
+5. Take rotting/going bad into account

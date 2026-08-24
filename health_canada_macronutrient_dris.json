@@ -1,0 +1,213 @@
+{
+  "source": "Health Canada - Dietary Reference Intakes: Reference Values for Macronutrients",
+  "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-macronutrients.html",
+  "page_last_updated": "2025-11-19",
+  "notes": {
+    "general": "These are reference values for normal, apparently healthy individuals eating a typical mixed North American diet. An individual may have physiological, health, or lifestyle characteristics that may require tailoring of specific nutrient values.",
+    "abbreviations": {
+      "EAR": "Estimated Average Requirement",
+      "RDA": "Recommended Dietary Allowance",
+      "AI": "Adequate Intake (used when RDA cannot be determined; bolded values without a corresponding EAR represent AI)",
+      "UL": "Tolerable Upper Intake Level",
+      "ND": "Not Determined (either due to lack of data on adverse effects, or because a UL is not applicable/needed for this nutrient)",
+      "AMDR": "Acceptable Macronutrient Distribution Range (a range of intake for a particular energy source associated with reduced risk of chronic disease while providing adequate intakes of essential nutrients)"
+    },
+    "table_footnotes": {
+      "footnote_29": "ULs have not been determined for carbohydrate, protein, total fat, linoleic acid, alpha-linolenic acid, fibre, or water; high intakes of these nutrients from food have not been associated with adverse effects in generally healthy individuals, so ND is shown for these ULs.",
+      "footnote_30": "Protein RDA/AI is based on a reference body weight; the RDA/AI in g/day is calculated by multiplying the g/kg/day value by the reference weight for that age/sex group.",
+      "footnote_31": "See footnote 30.",
+      "footnote_32": "Total Fibre AI values are based on median total energy intake within each age/sex group.",
+      "footnote_33": "See footnote 32.",
+      "footnote_34": "Total Water AI includes all water contained in food, beverages, and drinking water.",
+      "footnote_asterisk": "Value is an Adequate Intake (AI), not an RDA/EAR-derived requirement.",
+      "footnote_i": "Protein requirements for pregnancy reflect additional needs for maternal and fetal tissue accretion; the same EAR/RDA (g/kg/day and g/day) values apply across all three pregnancy age brackets."
+    },
+    "additional_macronutrient_recommendations": {
+      "saturated_fatty_acids": "As low as possible while consuming a nutritionally adequate diet",
+      "trans_fatty_acids": "As low as possible while consuming a nutritionally adequate diet",
+      "dietary_cholesterol": "As low as possible while consuming a nutritionally adequate diet",
+      "added_sugars": {
+        "recommendation": "Limit to no more than 25% of total energy",
+        "note": "Although there were insufficient data to set a UL for added sugars, this maximal intake level is suggested to prevent the displacement of foods that are major sources of essential micronutrients."
+      }
+    },
+    "protein_quality_scoring_pattern": {
+      "description": "Reference amino acid pattern for use in evaluating the quality of food proteins using the protein digestibility corrected amino acid score (PDCAAS). Based on estimated average requirements for both indispensable amino acids and for total protein for 1 to 3 year olds.",
+      "applicable_age": "1 year and older",
+      "unit": "mg amino acid / g protein",
+      "amino_acids": {
+        "histidine": 18,
+        "isoleucine": 25,
+        "leucine": 55,
+        "lysine": 51,
+        "methionine_plus_cysteine": 25,
+        "phenylalanine_plus_tyrosine": 47,
+        "threonine": 27,
+        "tryptophan": 7,
+        "valine": 32
+      }
+    }
+  },
+  "life_stage_groups": {
+    "infants": ["0–6 mo", "7–12 mo"],
+    "children": ["1–3 y", "4–8 y"],
+    "males": ["9–13 y", "14–18 y", "19–30 y", "31–50 y", "51–70 y", ">70 y"],
+    "females": ["9–13 y", "14–18 y", "19–30 y", "31–50 y", "51–70 y", ">70 y"],
+    "pregnancy": ["≤ 18 y", "19–30 y", "31–50 y"],
+    "lactation": ["≤ 18 y", "19–30 y", "31–50 y"]
+  },
+  "macronutrients": {
+    "carbohydrate_digestible": {
+      "unit": "g/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 60, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 95, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false}, "4–8 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 100, "RDA_AI": 130, "UL": null, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 135, "RDA_AI": 175, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 135, "RDA_AI": 175, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 135, "RDA_AI": 175, "UL": null, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 160, "RDA_AI": 210, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 160, "RDA_AI": 210, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 160, "RDA_AI": 210, "UL": null, "is_AI": false}}
+      }
+    },
+    "total_protein": {
+      "unit_primary": "g/kg/day",
+      "unit_alt": "g/day",
+      "notes": "RDA/AI in g/day is derived from the g/kg/day value using a reference body weight for the age/sex group (footnote 30).",
+      "values": {
+        "infants": {
+          "0–6 mo": {"EAR": {"g_per_kg": null}, "RDA_AI": {"g_per_kg": 1.52, "g_per_day": 9.1}, "UL": null, "is_AI": true},
+          "7–12 mo": {"EAR": {"g_per_kg": 1.0}, "RDA_AI": {"g_per_kg": 1.2, "g_per_day": 11.0}, "UL": null, "is_AI": false}
+        },
+        "children": {
+          "1–3 y": {"EAR": {"g_per_kg": 0.87}, "RDA_AI": {"g_per_kg": 1.05, "g_per_day": 13}, "UL": null, "is_AI": false},
+          "4–8 y": {"EAR": {"g_per_kg": 0.76}, "RDA_AI": {"g_per_kg": 0.95, "g_per_day": 19}, "UL": null, "is_AI": false}
+        },
+        "males": {
+          "9–13 y": {"EAR": {"g_per_kg": 0.76}, "RDA_AI": {"g_per_kg": 0.95, "g_per_day": 34}, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": {"g_per_kg": 0.73}, "RDA_AI": {"g_per_kg": 0.85, "g_per_day": 52}, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 56}, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 56}, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 56}, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 56}, "UL": null, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": {"g_per_kg": 0.76}, "RDA_AI": {"g_per_kg": 0.95, "g_per_day": 34}, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": {"g_per_kg": 0.71}, "RDA_AI": {"g_per_kg": 0.85, "g_per_day": 46}, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 46}, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 46}, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 46}, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": {"g_per_kg": 0.66}, "RDA_AI": {"g_per_kg": 0.80, "g_per_day": 46}, "UL": null, "is_AI": false}
+        },
+        "pregnancy": {
+          "≤ 18 y": {"EAR": {"g_per_kg": 0.88}, "RDA_AI": {"g_per_kg": 1.1, "g_per_day": 71}, "UL": null, "is_AI": false, "note": "See footnote i"},
+          "19–30 y": {"EAR": {"g_per_kg": 0.88}, "RDA_AI": {"g_per_kg": 1.1, "g_per_day": 71}, "UL": null, "is_AI": false, "note": "See footnote i"},
+          "31–50 y": {"EAR": {"g_per_kg": 0.88}, "RDA_AI": {"g_per_kg": 1.1, "g_per_day": 71}, "UL": null, "is_AI": false, "note": "See footnote i"}
+        },
+        "lactation": {
+          "≤ 18 y": {"EAR": {"g_per_kg": 1.05}, "RDA_AI": {"g_per_kg": 1.3, "g_per_day": 71}, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": {"g_per_kg": 1.05}, "RDA_AI": {"g_per_kg": 1.3, "g_per_day": 71}, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": {"g_per_kg": 1.05}, "RDA_AI": {"g_per_kg": 1.3, "g_per_day": 71}, "UL": null, "is_AI": false}
+        }
+      }
+    },
+    "total_fat": {
+      "unit": "g/day",
+      "notes": "AI established only for infants; for children and adults, intake is instead guided by the AMDR (% of energy) since no AI or UL in absolute g/day is set.",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 31, "UL": null}, "7–12 mo": {"AI": 30, "UL": null}},
+        "children": {"1–3 y": {"AI": null, "UL": null}, "4–8 y": {"AI": null, "UL": null}},
+        "males": {"9–13 y": {"AI": null, "UL": null}, "14–18 y": {"AI": null, "UL": null}, "19–30 y": {"AI": null, "UL": null}, "31–50 y": {"AI": null, "UL": null}, "51–70 y": {"AI": null, "UL": null}, ">70 y": {"AI": null, "UL": null}},
+        "females": {"9–13 y": {"AI": null, "UL": null}, "14–18 y": {"AI": null, "UL": null}, "19–30 y": {"AI": null, "UL": null}, "31–50 y": {"AI": null, "UL": null}, "51–70 y": {"AI": null, "UL": null}, ">70 y": {"AI": null, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": null, "UL": null}, "19–30 y": {"AI": null, "UL": null}, "31–50 y": {"AI": null, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": null, "UL": null}, "19–30 y": {"AI": null, "UL": null}, "31–50 y": {"AI": null, "UL": null}}
+      }
+    },
+    "linoleic_acid_n6": {
+      "unit": "g/day",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 4.4, "UL": null}, "7–12 mo": {"AI": 4.6, "UL": null}},
+        "children": {"1–3 y": {"AI": 7, "UL": null}, "4–8 y": {"AI": 10, "UL": null}},
+        "males": {"9–13 y": {"AI": 12, "UL": null}, "14–18 y": {"AI": 16, "UL": null}, "19–30 y": {"AI": 17, "UL": null}, "31–50 y": {"AI": 17, "UL": null}, "51–70 y": {"AI": 14, "UL": null}, ">70 y": {"AI": 14, "UL": null}},
+        "females": {"9–13 y": {"AI": 10, "UL": null}, "14–18 y": {"AI": 11, "UL": null}, "19–30 y": {"AI": 12, "UL": null}, "31–50 y": {"AI": 12, "UL": null}, "51–70 y": {"AI": 11, "UL": null}, ">70 y": {"AI": 11, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 13, "UL": null}, "19–30 y": {"AI": 13, "UL": null}, "31–50 y": {"AI": 13, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 13, "UL": null}, "19–30 y": {"AI": 13, "UL": null}, "31–50 y": {"AI": 13, "UL": null}}
+      }
+    },
+    "alpha_linolenic_acid_n3": {
+      "unit": "g/day",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 0.5, "UL": null}, "7–12 mo": {"AI": 0.5, "UL": null}},
+        "children": {"1–3 y": {"AI": 0.7, "UL": null}, "4–8 y": {"AI": 0.9, "UL": null}},
+        "males": {"9–13 y": {"AI": 1.2, "UL": null}, "14–18 y": {"AI": 1.6, "UL": null}, "19–30 y": {"AI": 1.6, "UL": null}, "31–50 y": {"AI": 1.6, "UL": null}, "51–70 y": {"AI": 1.6, "UL": null}, ">70 y": {"AI": 1.6, "UL": null}},
+        "females": {"9–13 y": {"AI": 1.0, "UL": null}, "14–18 y": {"AI": 1.1, "UL": null}, "19–30 y": {"AI": 1.1, "UL": null}, "31–50 y": {"AI": 1.1, "UL": null}, "51–70 y": {"AI": 1.1, "UL": null}, ">70 y": {"AI": 1.1, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 1.4, "UL": null}, "19–30 y": {"AI": 1.4, "UL": null}, "31–50 y": {"AI": 1.4, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 1.3, "UL": null}, "19–30 y": {"AI": 1.3, "UL": null}, "31–50 y": {"AI": 1.3, "UL": null}}
+      }
+    },
+    "total_fibre": {
+      "unit": "g/day",
+      "notes": "AI values based on median total energy intake within each age/sex group (footnote 32).",
+      "values": {
+        "infants": {"0–6 mo": {"AI": null, "UL": null}, "7–12 mo": {"AI": null, "UL": null}},
+        "children": {"1–3 y": {"AI": 19, "UL": null}, "4–8 y": {"AI": 25, "UL": null}},
+        "males": {"9–13 y": {"AI": 31, "UL": null}, "14–18 y": {"AI": 38, "UL": null}, "19–30 y": {"AI": 38, "UL": null}, "31–50 y": {"AI": 38, "UL": null}, "51–70 y": {"AI": 30, "UL": null}, ">70 y": {"AI": 30, "UL": null}},
+        "females": {"9–13 y": {"AI": 26, "UL": null}, "14–18 y": {"AI": 26, "UL": null}, "19–30 y": {"AI": 25, "UL": null}, "31–50 y": {"AI": 25, "UL": null}, "51–70 y": {"AI": 21, "UL": null}, ">70 y": {"AI": 21, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 28, "UL": null}, "19–30 y": {"AI": 28, "UL": null}, "31–50 y": {"AI": 28, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 29, "UL": null}, "19–30 y": {"AI": 29, "UL": null}, "31–50 y": {"AI": 29, "UL": null}}
+      }
+    },
+    "total_water": {
+      "unit": "L/day",
+      "notes": "Includes all water contained in food, beverages, and drinking water (footnote 34).",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 0.7, "UL": null}, "7–12 mo": {"AI": 0.8, "UL": null}},
+        "children": {"1–3 y": {"AI": 1.3, "UL": null}, "4–8 y": {"AI": 1.7, "UL": null}},
+        "males": {"9–13 y": {"AI": 2.4, "UL": null}, "14–18 y": {"AI": 3.3, "UL": null}, "19–30 y": {"AI": 3.7, "UL": null}, "31–50 y": {"AI": 3.7, "UL": null}, "51–70 y": {"AI": 3.7, "UL": null}, ">70 y": {"AI": 3.7, "UL": null}},
+        "females": {"9–13 y": {"AI": 2.1, "UL": null}, "14–18 y": {"AI": 2.3, "UL": null}, "19–30 y": {"AI": 2.7, "UL": null}, "31–50 y": {"AI": 2.7, "UL": null}, "51–70 y": {"AI": 2.7, "UL": null}, ">70 y": {"AI": 2.7, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 3.0, "UL": null}, "19–30 y": {"AI": 3.0, "UL": null}, "31–50 y": {"AI": 3.0, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 3.8, "UL": null}, "19–30 y": {"AI": 3.8, "UL": null}, "31–50 y": {"AI": 3.8, "UL": null}}
+      }
+    }
+  },
+  "amdr_acceptable_macronutrient_distribution_ranges": {
+    "unit": "% of total energy",
+    "note": "AMDRs apply to males and females combined; brackets differ from the EAR/RDA/AI/UL life-stage groups above.",
+    "age_brackets": ["1–3 years", "4–18 years", "19 years and over"],
+    "values": {
+      "1–3 years": {
+        "total_carbohydrate_pct": "45–65",
+        "total_protein_pct": "5–20",
+        "total_fat_pct": "30–40",
+        "linoleic_acid_n6_pct": "5–10",
+        "alpha_linolenic_acid_n3_pct": "0.6–1.2"
+      },
+      "4–18 years": {
+        "total_carbohydrate_pct": "45–65",
+        "total_protein_pct": "10–30",
+        "total_fat_pct": "25–35",
+        "linoleic_acid_n6_pct": "5–10",
+        "alpha_linolenic_acid_n3_pct": "0.6–1.2"
+      },
+      "19 years and over": {
+        "total_carbohydrate_pct": "45–65",
+        "total_protein_pct": "10–35",
+        "total_fat_pct": "20–35",
+        "linoleic_acid_n6_pct": "5–10",
+        "alpha_linolenic_acid_n3_pct": "0.6–1.2"
+      }
+    }
+  }
+}

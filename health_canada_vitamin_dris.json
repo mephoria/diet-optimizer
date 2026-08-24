@@ -1,0 +1,356 @@
+{
+  "source": "Health Canada - Dietary Reference Intakes: Reference Values for Vitamins",
+  "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-vitamins.html",
+  "page_last_updated": "2025-11-19",
+  "notes": {
+    "general": "These are reference values for normal, apparently healthy individuals eating a typical mixed North American diet. An individual may have physiological, health, or lifestyle characteristics that may require tailoring of specific nutrient values.",
+    "abbreviations": {
+      "EAR": "Estimated Average Requirement",
+      "RDA": "Recommended Dietary Allowance",
+      "AI": "Adequate Intake (used when RDA cannot be determined; bolded values without a corresponding EAR represent AI)",
+      "UL": "Tolerable Upper Intake Level",
+      "ND": "Not Determined (due to lack of data on adverse effects; caution needed at high intake)",
+      "RAE": "Retinol Activity Equivalents",
+      "NE": "Niacin Equivalents",
+      "DFE": "Dietary Folate Equivalents"
+    }
+  },
+  "life_stage_groups": {
+    "infants": ["0–6 mo", "7–12 mo"],
+    "children": ["1–3 y", "4–8 y"],
+    "males": ["9–13 y", "14–18 y", "19–30 y", "31–50 y", "51–70 y", ">70 y"],
+    "females": ["9–13 y", "14–18 y", "19–30 y", "31–50 y", "51–70 y", ">70 y"],
+    "pregnancy": ["≤ 18 y", "19–30 y", "31–50 y"],
+    "lactation": ["≤ 18 y", "19–30 y", "31–50 y"]
+  },
+  "vitamins": {
+    "vitamin_A": {
+      "unit_primary": "mcg/day (RAE)",
+      "unit_alt": "IU/day (RAE)",
+      "values": {
+        "infants": {
+          "0–6 mo": {"EAR": null, "RDA_AI": {"mcg": 400, "IU": 1333}, "UL": {"mcg": 600, "IU": 2000}, "is_AI": true},
+          "7–12 mo": {"EAR": null, "RDA_AI": {"mcg": 500, "IU": 1667}, "UL": {"mcg": 600, "IU": 2000}, "is_AI": true}
+        },
+        "children": {
+          "1–3 y": {"EAR": {"mcg": 210, "IU": 700}, "RDA_AI": {"mcg": 300, "IU": 1000}, "UL": {"mcg": 600, "IU": 2000}, "is_AI": false},
+          "4–8 y": {"EAR": {"mcg": 275, "IU": 917}, "RDA_AI": {"mcg": 400, "IU": 1333}, "UL": {"mcg": 900, "IU": 3000}, "is_AI": false}
+        },
+        "males": {
+          "9–13 y": {"EAR": {"mcg": 445, "IU": 1483}, "RDA_AI": {"mcg": 600, "IU": 2000}, "UL": {"mcg": 1700, "IU": 5667}, "is_AI": false},
+          "14–18 y": {"EAR": {"mcg": 630, "IU": 2100}, "RDA_AI": {"mcg": 900, "IU": 3000}, "UL": {"mcg": 2800, "IU": 9333}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 625, "IU": 2083}, "RDA_AI": {"mcg": 900, "IU": 3000}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 625, "IU": 2083}, "RDA_AI": {"mcg": 900, "IU": 3000}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "51–70 y": {"EAR": {"mcg": 625, "IU": 2083}, "RDA_AI": {"mcg": 900, "IU": 3000}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          ">70 y": {"EAR": {"mcg": 625, "IU": 2083}, "RDA_AI": {"mcg": 900, "IU": 3000}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": {"mcg": 420, "IU": 1400}, "RDA_AI": {"mcg": 600, "IU": 2000}, "UL": {"mcg": 1700, "IU": 5667}, "is_AI": false},
+          "14–18 y": {"EAR": {"mcg": 485, "IU": 1617}, "RDA_AI": {"mcg": 700, "IU": 2333}, "UL": {"mcg": 2800, "IU": 9333}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 500, "IU": 1667}, "RDA_AI": {"mcg": 700, "IU": 2333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 500, "IU": 1667}, "RDA_AI": {"mcg": 700, "IU": 2333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "51–70 y": {"EAR": {"mcg": 500, "IU": 1667}, "RDA_AI": {"mcg": 700, "IU": 2333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          ">70 y": {"EAR": {"mcg": 500, "IU": 1667}, "RDA_AI": {"mcg": 700, "IU": 2333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false}
+        },
+        "pregnancy": {
+          "≤ 18 y": {"EAR": {"mcg": 530, "IU": 1767}, "RDA_AI": {"mcg": 750, "IU": 2500}, "UL": {"mcg": 2800, "IU": 9333}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 550, "IU": 1833}, "RDA_AI": {"mcg": 770, "IU": 2567}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 550, "IU": 1833}, "RDA_AI": {"mcg": 770, "IU": 2567}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false}
+        },
+        "lactation": {
+          "≤ 18 y": {"EAR": {"mcg": 885, "IU": 2950}, "RDA_AI": {"mcg": 1200, "IU": 4000}, "UL": {"mcg": 2800, "IU": 9333}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 900, "IU": 3000}, "RDA_AI": {"mcg": 1300, "IU": 4333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 900, "IU": 3000}, "RDA_AI": {"mcg": 1300, "IU": 4333}, "UL": {"mcg": 3000, "IU": 10000}, "is_AI": false}
+        }
+      }
+    },
+    "vitamin_D": {
+      "unit_primary": "mcg/day",
+      "unit_alt": "IU/day",
+      "values": {
+        "infants": {
+          "0–6 mo": {"EAR": null, "RDA_AI": {"mcg": 10, "IU": 400}, "UL": {"mcg": 25, "IU": 1000}, "is_AI": true, "footnote": "In the absence of adequate exposure to sunlight."},
+          "7–12 mo": {"EAR": null, "RDA_AI": {"mcg": 10, "IU": 400}, "UL": {"mcg": 38, "IU": 1500}, "is_AI": true, "footnote": "In the absence of adequate exposure to sunlight."}
+        },
+        "children": {
+          "1–3 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 63, "IU": 2500}, "is_AI": false},
+          "4–8 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 75, "IU": 3000}, "is_AI": false}
+        },
+        "males": {
+          "9–13 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "14–18 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "51–70 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          ">70 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 20, "IU": 800}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "14–18 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "51–70 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          ">70 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 20, "IU": 800}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false}
+        },
+        "pregnancy": {
+          "≤ 18 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false}
+        },
+        "lactation": {
+          "≤ 18 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "19–30 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false},
+          "31–50 y": {"EAR": {"mcg": 10, "IU": 400}, "RDA_AI": {"mcg": 15, "IU": 600}, "UL": {"mcg": 100, "IU": 4000}, "is_AI": false}
+        }
+      }
+    },
+    "vitamin_E": {
+      "unit": "mg/day (alpha-tocopherol)",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 4, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 5, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 5, "RDA_AI": 6, "UL": 200, "is_AI": false}, "4–8 y": {"EAR": 6, "RDA_AI": 7, "UL": 300, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 9, "RDA_AI": 11, "UL": 600, "is_AI": false},
+          "14–18 y": {"EAR": 12, "RDA_AI": 15, "UL": 800, "is_AI": false},
+          "19–30 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          "31–50 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          "51–70 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          ">70 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 9, "RDA_AI": 11, "UL": 600, "is_AI": false},
+          "14–18 y": {"EAR": 12, "RDA_AI": 15, "UL": 800, "is_AI": false},
+          "19–30 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          "31–50 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          "51–70 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false},
+          ">70 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 12, "RDA_AI": 15, "UL": 800, "is_AI": false}, "19–30 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false}, "31–50 y": {"EAR": 12, "RDA_AI": 15, "UL": 1000, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 16, "RDA_AI": 19, "UL": 800, "is_AI": false}, "19–30 y": {"EAR": 16, "RDA_AI": 19, "UL": 1000, "is_AI": false}, "31–50 y": {"EAR": 16, "RDA_AI": 19, "UL": 1000, "is_AI": false}}
+      }
+    },
+    "vitamin_K": {
+      "unit": "mcg/day (AI only; UL not determined)",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 2.0, "UL": null}, "7–12 mo": {"AI": 2.5, "UL": null}},
+        "children": {"1–3 y": {"AI": 30, "UL": null}, "4–8 y": {"AI": 55, "UL": null}},
+        "males": {"9–13 y": {"AI": 60, "UL": null}, "14–18 y": {"AI": 75, "UL": null}, "19–30 y": {"AI": 120, "UL": null}, "31–50 y": {"AI": 120, "UL": null}, "51–70 y": {"AI": 120, "UL": null}, ">70 y": {"AI": 120, "UL": null}},
+        "females": {"9–13 y": {"AI": 60, "UL": null}, "14–18 y": {"AI": 75, "UL": null}, "19–30 y": {"AI": 90, "UL": null}, "31–50 y": {"AI": 90, "UL": null}, "51–70 y": {"AI": 90, "UL": null}, ">70 y": {"AI": 90, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 75, "UL": null}, "19–30 y": {"AI": 90, "UL": null}, "31–50 y": {"AI": 90, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 75, "UL": null}, "19–30 y": {"AI": 90, "UL": null}, "31–50 y": {"AI": 90, "UL": null}}
+      }
+    },
+    "vitamin_C": {
+      "unit": "mg/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 40, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 50, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 13, "RDA_AI": 15, "UL": 400, "is_AI": false}, "4–8 y": {"EAR": 22, "RDA_AI": 25, "UL": 650, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 39, "RDA_AI": 45, "UL": 1200, "is_AI": false},
+          "14–18 y": {"EAR": 63, "RDA_AI": 75, "UL": 1800, "is_AI": false},
+          "19–30 y": {"EAR": 75, "RDA_AI": 90, "UL": 2000, "is_AI": false},
+          "31–50 y": {"EAR": 75, "RDA_AI": 90, "UL": 2000, "is_AI": false},
+          "51–70 y": {"EAR": 75, "RDA_AI": 90, "UL": 2000, "is_AI": false},
+          ">70 y": {"EAR": 75, "RDA_AI": 90, "UL": 2000, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 39, "RDA_AI": 45, "UL": 1200, "is_AI": false},
+          "14–18 y": {"EAR": 56, "RDA_AI": 65, "UL": 1800, "is_AI": false},
+          "19–30 y": {"EAR": 60, "RDA_AI": 75, "UL": 2000, "is_AI": false},
+          "31–50 y": {"EAR": 60, "RDA_AI": 75, "UL": 2000, "is_AI": false},
+          "51–70 y": {"EAR": 60, "RDA_AI": 75, "UL": 2000, "is_AI": false},
+          ">70 y": {"EAR": 60, "RDA_AI": 75, "UL": 2000, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 66, "RDA_AI": 80, "UL": 1800, "is_AI": false}, "19–30 y": {"EAR": 70, "RDA_AI": 85, "UL": 2000, "is_AI": false}, "31–50 y": {"EAR": 70, "RDA_AI": 85, "UL": 2000, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 96, "RDA_AI": 115, "UL": 1800, "is_AI": false}, "19–30 y": {"EAR": 100, "RDA_AI": 120, "UL": 2000, "is_AI": false}, "31–50 y": {"EAR": 100, "RDA_AI": 120, "UL": 2000, "is_AI": false}}
+      }
+    },
+    "thiamin": {
+      "unit": "mg/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 0.2, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 0.3, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 0.4, "RDA_AI": 0.5, "UL": null, "is_AI": false}, "4–8 y": {"EAR": 0.5, "RDA_AI": 0.6, "UL": null, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 0.7, "RDA_AI": 0.9, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 0.7, "RDA_AI": 0.9, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 0.9, "RDA_AI": 1.0, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}}
+      }
+    },
+    "riboflavin": {
+      "unit": "mg/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 0.3, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 0.4, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 0.4, "RDA_AI": 0.5, "UL": null, "is_AI": false}, "4–8 y": {"EAR": 0.5, "RDA_AI": 0.6, "UL": null, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 0.8, "RDA_AI": 0.9, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": null, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 0.8, "RDA_AI": 0.9, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 0.9, "RDA_AI": 1.0, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false},
+          ">70 y": {"EAR": 0.9, "RDA_AI": 1.1, "UL": null, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 1.2, "RDA_AI": 1.4, "UL": null, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 1.3, "RDA_AI": 1.6, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 1.3, "RDA_AI": 1.6, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 1.3, "RDA_AI": 1.6, "UL": null, "is_AI": false}}
+      }
+    },
+    "niacin": {
+      "unit": "mg/day (NE)",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 2, "UL": null, "is_AI": true, "note": "AI expressed as niacin, not NE"}, "7–12 mo": {"EAR": null, "RDA_AI": 4, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 5, "RDA_AI": 6, "UL": 10, "is_AI": false}, "4–8 y": {"EAR": 6, "RDA_AI": 8, "UL": 15, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 9, "RDA_AI": 12, "UL": 20, "is_AI": false},
+          "14–18 y": {"EAR": 12, "RDA_AI": 16, "UL": 30, "is_AI": false},
+          "19–30 y": {"EAR": 12, "RDA_AI": 16, "UL": 35, "is_AI": false},
+          "31–50 y": {"EAR": 12, "RDA_AI": 16, "UL": 35, "is_AI": false},
+          "51–70 y": {"EAR": 12, "RDA_AI": 16, "UL": 35, "is_AI": false},
+          ">70 y": {"EAR": 12, "RDA_AI": 16, "UL": 35, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 9, "RDA_AI": 12, "UL": 20, "is_AI": false},
+          "14–18 y": {"EAR": 11, "RDA_AI": 14, "UL": 30, "is_AI": false},
+          "19–30 y": {"EAR": 11, "RDA_AI": 14, "UL": 35, "is_AI": false},
+          "31–50 y": {"EAR": 11, "RDA_AI": 14, "UL": 35, "is_AI": false},
+          "51–70 y": {"EAR": 11, "RDA_AI": 14, "UL": 35, "is_AI": false},
+          ">70 y": {"EAR": 11, "RDA_AI": 14, "UL": 35, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 14, "RDA_AI": 18, "UL": 30, "is_AI": false}, "19–30 y": {"EAR": 14, "RDA_AI": 18, "UL": 35, "is_AI": false}, "31–50 y": {"EAR": 14, "RDA_AI": 18, "UL": 35, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 13, "RDA_AI": 17, "UL": 30, "is_AI": false}, "19–30 y": {"EAR": 13, "RDA_AI": 17, "UL": 35, "is_AI": false}, "31–50 y": {"EAR": 13, "RDA_AI": 17, "UL": 35, "is_AI": false}}
+      }
+    },
+    "vitamin_B6": {
+      "unit": "mg/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 0.1, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 0.3, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 0.4, "RDA_AI": 0.5, "UL": 30, "is_AI": false}, "4–8 y": {"EAR": 0.5, "RDA_AI": 0.6, "UL": 40, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 0.8, "RDA_AI": 1.0, "UL": 60, "is_AI": false},
+          "14–18 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": 80, "is_AI": false},
+          "19–30 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": 100, "is_AI": false},
+          "31–50 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": 100, "is_AI": false},
+          "51–70 y": {"EAR": 1.4, "RDA_AI": 1.7, "UL": 100, "is_AI": false},
+          ">70 y": {"EAR": 1.4, "RDA_AI": 1.7, "UL": 100, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 0.8, "RDA_AI": 1.0, "UL": 60, "is_AI": false},
+          "14–18 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": 80, "is_AI": false},
+          "19–30 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": 100, "is_AI": false},
+          "31–50 y": {"EAR": 1.1, "RDA_AI": 1.3, "UL": 100, "is_AI": false},
+          "51–70 y": {"EAR": 1.3, "RDA_AI": 1.5, "UL": 100, "is_AI": false},
+          ">70 y": {"EAR": 1.3, "RDA_AI": 1.5, "UL": 100, "is_AI": false}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 1.6, "RDA_AI": 1.9, "UL": 80, "is_AI": false}, "19–30 y": {"EAR": 1.6, "RDA_AI": 1.9, "UL": 100, "is_AI": false}, "31–50 y": {"EAR": 1.6, "RDA_AI": 1.9, "UL": 100, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 1.7, "RDA_AI": 2.0, "UL": 80, "is_AI": false}, "19–30 y": {"EAR": 1.7, "RDA_AI": 2.0, "UL": 100, "is_AI": false}, "31–50 y": {"EAR": 1.7, "RDA_AI": 2.0, "UL": 100, "is_AI": false}}
+      }
+    },
+    "folate": {
+      "unit": "mcg/day (DFE)",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 65, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 80, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 120, "RDA_AI": 150, "UL": 300, "is_AI": false}, "4–8 y": {"EAR": 160, "RDA_AI": 200, "UL": 400, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 250, "RDA_AI": 300, "UL": 600, "is_AI": false},
+          "14–18 y": {"EAR": 330, "RDA_AI": 400, "UL": 800, "is_AI": false},
+          "19–30 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false},
+          "31–50 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false},
+          "51–70 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false},
+          ">70 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false}
+        },
+        "females": {
+          "9–13 y": {"EAR": 250, "RDA_AI": 300, "UL": 600, "is_AI": false},
+          "14–18 y": {"EAR": 330, "RDA_AI": 400, "UL": 800, "is_AI": false, "note": "See footnote d: assumes continued supplement/fortified food intake pre-pregnancy confirmation"},
+          "19–30 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false, "note": "See footnote d"},
+          "31–50 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false, "note": "See footnote d"},
+          "51–70 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false},
+          ">70 y": {"EAR": 320, "RDA_AI": 400, "UL": 1000, "is_AI": false}
+        },
+        "pregnancy": {
+          "≤ 18 y": {"EAR": 520, "RDA_AI": 600, "UL": 800, "is_AI": false, "note": "See footnote e: 400 mcg synthetic folic acid recommended for all women capable of becoming pregnant"},
+          "19–30 y": {"EAR": 520, "RDA_AI": 600, "UL": 1000, "is_AI": false, "note": "See footnote e"},
+          "31–50 y": {"EAR": 520, "RDA_AI": 600, "UL": 1000, "is_AI": false, "note": "See footnote e"}
+        },
+        "lactation": {"≤ 18 y": {"EAR": 450, "RDA_AI": 500, "UL": 800, "is_AI": false}, "19–30 y": {"EAR": 450, "RDA_AI": 500, "UL": 1000, "is_AI": false}, "31–50 y": {"EAR": 450, "RDA_AI": 500, "UL": 1000, "is_AI": false}}
+      }
+    },
+    "vitamin_B12": {
+      "unit": "mcg/day",
+      "values": {
+        "infants": {"0–6 mo": {"EAR": null, "RDA_AI": 0.4, "UL": null, "is_AI": true}, "7–12 mo": {"EAR": null, "RDA_AI": 0.5, "UL": null, "is_AI": true}},
+        "children": {"1–3 y": {"EAR": 0.7, "RDA_AI": 0.9, "UL": null, "is_AI": false}, "4–8 y": {"EAR": 1.0, "RDA_AI": 1.2, "UL": null, "is_AI": false}},
+        "males": {
+          "9–13 y": {"EAR": 1.5, "RDA_AI": 1.8, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false, "note": "See footnote f: older adults advised to meet RDA mainly via fortified foods or supplements"},
+          ">70 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false, "note": "See footnote f"}
+        },
+        "females": {
+          "9–13 y": {"EAR": 1.5, "RDA_AI": 1.8, "UL": null, "is_AI": false},
+          "14–18 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "19–30 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "31–50 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false},
+          "51–70 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false, "note": "See footnote f"},
+          ">70 y": {"EAR": 2.0, "RDA_AI": 2.4, "UL": null, "is_AI": false, "note": "See footnote f"}
+        },
+        "pregnancy": {"≤ 18 y": {"EAR": 2.2, "RDA_AI": 2.6, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 2.2, "RDA_AI": 2.6, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 2.2, "RDA_AI": 2.6, "UL": null, "is_AI": false}},
+        "lactation": {"≤ 18 y": {"EAR": 2.4, "RDA_AI": 2.8, "UL": null, "is_AI": false}, "19–30 y": {"EAR": 2.4, "RDA_AI": 2.8, "UL": null, "is_AI": false}, "31–50 y": {"EAR": 2.4, "RDA_AI": 2.8, "UL": null, "is_AI": false}}
+      }
+    },
+    "pantothenic_acid": {
+      "unit": "mg/day (AI only; UL not determined)",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 1.7, "UL": null}, "7–12 mo": {"AI": 1.8, "UL": null}},
+        "children": {"1–3 y": {"AI": 2, "UL": null}, "4–8 y": {"AI": 3, "UL": null}},
+        "males": {"9–13 y": {"AI": 4, "UL": null}, "14–18 y": {"AI": 5, "UL": null}, "19–30 y": {"AI": 5, "UL": null}, "31–50 y": {"AI": 5, "UL": null}, "51–70 y": {"AI": 5, "UL": null}, ">70 y": {"AI": 5, "UL": null}},
+        "females": {"9–13 y": {"AI": 4, "UL": null}, "14–18 y": {"AI": 5, "UL": null}, "19–30 y": {"AI": 5, "UL": null}, "31–50 y": {"AI": 5, "UL": null}, "51–70 y": {"AI": 5, "UL": null}, ">70 y": {"AI": 5, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 6, "UL": null}, "19–30 y": {"AI": 6, "UL": null}, "31–50 y": {"AI": 6, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 7, "UL": null}, "19–30 y": {"AI": 7, "UL": null}, "31–50 y": {"AI": 7, "UL": null}}
+      }
+    },
+    "biotin": {
+      "unit": "mcg/day (AI only; UL not determined)",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 5, "UL": null}, "7–12 mo": {"AI": 6, "UL": null}},
+        "children": {"1–3 y": {"AI": 8, "UL": null}, "4–8 y": {"AI": 12, "UL": null}},
+        "males": {"9–13 y": {"AI": 20, "UL": null}, "14–18 y": {"AI": 25, "UL": null}, "19–30 y": {"AI": 30, "UL": null}, "31–50 y": {"AI": 30, "UL": null}, "51–70 y": {"AI": 30, "UL": null}, ">70 y": {"AI": 30, "UL": null}},
+        "females": {"9–13 y": {"AI": 20, "UL": null}, "14–18 y": {"AI": 25, "UL": null}, "19–30 y": {"AI": 30, "UL": null}, "31–50 y": {"AI": 30, "UL": null}, "51–70 y": {"AI": 30, "UL": null}, ">70 y": {"AI": 30, "UL": null}},
+        "pregnancy": {"≤ 18 y": {"AI": 30, "UL": null}, "19–30 y": {"AI": 30, "UL": null}, "31–50 y": {"AI": 30, "UL": null}},
+        "lactation": {"≤ 18 y": {"AI": 35, "UL": null}, "19–30 y": {"AI": 35, "UL": null}, "31–50 y": {"AI": 35, "UL": null}}
+      }
+    },
+    "choline": {
+      "unit": "mg/day (AI; UL determined despite limited requirement data)",
+      "values": {
+        "infants": {"0–6 mo": {"AI": 125, "UL": null}, "7–12 mo": {"AI": 150, "UL": null}},
+        "children": {"1–3 y": {"AI": 200, "UL": 1000}, "4–8 y": {"AI": 250, "UL": 1000}},
+        "males": {"9–13 y": {"AI": 375, "UL": 2000}, "14–18 y": {"AI": 550, "UL": 3000}, "19–30 y": {"AI": 550, "UL": 3500}, "31–50 y": {"AI": 550, "UL": 3500}, "51–70 y": {"AI": 550, "UL": 3500}, ">70 y": {"AI": 550, "UL": 3500}},
+        "females": {"9–13 y": {"AI": 375, "UL": 2000}, "14–18 y": {"AI": 400, "UL": 3000}, "19–30 y": {"AI": 425, "UL": 3500}, "31–50 y": {"AI": 425, "UL": 3500}, "51–70 y": {"AI": 425, "UL": 3500}, ">70 y": {"AI": 425, "UL": 3500}},
+        "pregnancy": {"≤ 18 y": {"AI": 450, "UL": 3000}, "19–30 y": {"AI": 450, "UL": 3500}, "31–50 y": {"AI": 450, "UL": 3500}},
+        "lactation": {"≤ 18 y": {"AI": 550, "UL": 3000}, "19–30 y": {"AI": 550, "UL": 3500}, "31–50 y": {"AI": 550, "UL": 3500}}
+      }
+    }
+  }
+}
