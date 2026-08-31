@@ -1,0 +1,40 @@
+{
+    "name": "Lean Ground Halal Beef",
+    "price": 19.94,
+    "weight": "1kg",
+    "description": "Ground meat is finely chopped, boneless, and skinless with varying amounts of fat indicated by the name regular (no more than 30% fat), medium (no more than 23% fat), lean (no more than 17% fat), or extra lean (no more than 10% fat). Use your favourite ground meat to make burgers and meatballs, or add to chili and pasta sauce.",
+    "nutrients": {
+        "per": "90g",
+        "calories": "210cal",
+        "macronutrients": {
+            "fat": {
+                "saturates": "6g",
+                "+ trans": "0.5g",
+                "monounsaturates": "7g",
+                "polyunsaturates": "0.4g"
+            },
+            "carbohydrate": {
+                "sugars": "0g",
+                "fiber": "0g"
+            },
+            "protein": "17g",
+            "cholesterol": "55mg",
+            "sodium": "55mg",
+            "potassium": "225mg",
+        },
+        "micronutrients (percent)": {
+            "calcium": "0",
+            "iron": "10",
+            "vitamin k": "4",
+            "thiamine": "8",
+            "riboflavin": "10",
+            "vitamin b6": "10",
+            "vitamin b12": "80",
+            "pantothenate": "8",
+            "phosphorus": "15",
+            "magnesium": "6",
+            "zinc": "40",
+            "selenium": "30"
+        }
+    }
+}
