@@ -1,0 +1,2363 @@
+{
+  "items": [
+    {
+      "name": "fresh_fruits",
+      "items": [
+        {
+          "name": "Bananas, Bunch",
+          "price": 1.75,
+          "weight": "Average weight is 1.15 KG",
+          "description": "Bananas are a versatile addition to your kitchen. Slice them over your morning cereal for a nutritious start to the day or blend them into a smoothie for a quick, refreshing beverage. These bananas come in a convenient bunch, making it easy to keep your fruit bowl stocked. Their natural sweetness and soft texture make them a favourite for snacks and baking. Enjoy the convenience of having fresh bananas on hand for various uses throughout the week.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "120cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.2g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "32g",
+                "sugars": "17g",
+                "fiber": "4g",
+                "other carbohydrate": "11.2g"
+              },
+              "protein": "2g",
+              "potassium": "500mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 0,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 30,
+              "biotin": 15,
+              "phosphorus": 2,
+              "magnesium": 10,
+              "selenium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Banana.",
+            "items": [
+              "Banana"
+            ]
+          }
+        },
+        {
+          "name": "Red Seedless Watermelon",
+          "price": 3.99,
+          "weight": "1 ea",
+          "description": "Watermelons come in a variety of shapes and colours, either with seeds or not. They are all sweet and juicy with a crisp flesh and watery texture. Sliced watermelon tastes great on its own, or you can toss watermelon cubes with some feta cheese and fresh mint for a summer salad.",
+          "nutrients": {
+            "per": "280g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "21g",
+                "sugars": "17g",
+                "fiber": "1g",
+                "other carbohydrate": "2.7g"
+              },
+              "protein": "2g",
+              "potassium": "300mg",
+              "cholesterol": "0mg",
+              "sodium": "3mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 8,
+              "vitamin c": 25,
+              "calcium": 2,
+              "iron": 6,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 10,
+              "pantothenate": 20,
+              "phosphorus": 2,
+              "magnesium": 6,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Seedless Watermelon.",
+            "items": [
+              "Seedless Watermelon"
+            ]
+          }
+        },
+        {
+          "name": "Blueberries 1 pint",
+          "price": 7.99,
+          "weight": "1 ea",
+          "description": "Blueberries range in colour from a deep purple-blue to a blue-black, both with a silvery sheen called bloom. Sweeten your morning by sprinkling blueberries on your cereal or pancakes, or add blueberries to a spinach salad with pecans and blue cheese.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "20g",
+                "sugars": "14g",
+                "fiber": "3g",
+                "other carbohydrate": "3.0g"
+              },
+              "protein": "1g",
+              "potassium": "100mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 25,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Blueberries",
+            "items": [
+              "Blueberries"
+            ]
+          }
+        },
+        {
+          "name": "Peaches",
+          "price": 6.99,
+          "weight": "3 l",
+          "description": "Packaging may differ by region.Peaches range in colour from pinkish-white to reddish-yellow and their flavour can be tart or sweet. If you don't like their fuzzy skin, you can easily peel peaches by blanching them in boiling water for about 30 seconds and then plunging them into ice water. Enjoy peaches as a snack, in a pie, or grilled with prosciutto.",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "40cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "10g",
+                "sugars": "8g",
+                "fiber": "2g"
+              },
+              "protein": "1g",
+              "potassium": "200mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 10,
+              "calcium": 0,
+              "iron": 2,
+              "vitamin k": 4,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "pantothenate": 2,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "zinc": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Peaches.",
+            "items": [
+              "Peaches"
+            ]
+          }
+        },
+        {
+          "name": "Avocado Bag",
+          "price": 3.99,
+          "weight": "1 ea",
+          "description": "Product descriptionProduct Number: 21644936001_EA",
+          "nutrients": {
+            "per": "Serving Size Per g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": null
+              },
+              "carbohydrate": {
+                "total": null,
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Avocado.",
+            "items": [
+              "Avocado"
+            ]
+          }
+        },
+        {
+          "name": "Green Seedless Grapes",
+          "price": 10.1,
+          "weight": "Average weight is 1.02 KG",
+          "description": "Bright, juicy, and refreshingly crisp, Autumn Crisp® Green Seedless Grapes are a go-to for easy, everyday snacking. Each bite has a yummy, sweet flavour with a satisfying crunch that makes them hard to put down. Seedless and fuss-free, they’re perfect for tossing into lunchboxes or adding to fruit salads. They're also great for serving on a charcuterie board with cheeses, meats, and crackers when you're hosting, or eating straight from the bag.",
+          "nutrients": {
+            "per": "142g",
+            "calories": "100cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "26g",
+                "sugars": "22g",
+                "fiber": "1g",
+                "other carbohydrate": "2.4g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "3mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 2,
+              "iron": 6,
+              "vitamin k": 20,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Green Seedless Grapes.",
+            "items": [
+              "Green Seedless Grapes"
+            ]
+          }
+        },
+        {
+          "name": "Raspberries Half Pint",
+          "price": 1.49,
+          "weight": "170 g",
+          "description": "Raspberries are delicate fruit with bright red drupelets that connect to each other around a hollow central core. Their flavour is sweet but can also be tart if they aren’t quite ripe. Add them to your morning cereal, smoothie, or yogurt, or indulge with raspberries topped with cream and chocolate shavings.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "1.0g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "omega-3 fatty acids": "200mg",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.5g"
+              },
+              "carbohydrate": {
+                "total": "17g",
+                "sugars": "6g",
+                "fiber": "9g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "2g",
+              "potassium": "200mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 60,
+              "calcium": 4,
+              "iron": 6,
+              "vitamin k": 15,
+              "thiamine": 4,
+              "riboflavin": 4,
+              "vitamin b6": 4,
+              "pantothenate": 6,
+              "phosphorus": 4,
+              "magnesium": 10,
+              "zinc": 6
+            }
+          },
+          "ingredients": {
+            "raw": "Raspberries.",
+            "items": [
+              "Raspberries"
+            ]
+          }
+        },
+        {
+          "name": "Strawberries 1LB",
+          "price": 3.99,
+          "weight": "454 g",
+          "description": "Strawberries vary in colour, shape, and size but their flavour is distinctively sweet. They are topped with a hull of green leaves and are speckled with seeds on the surface. Enjoy yours in classic desserts like strawberry shortcake and strawberry-rhubarb pie, or add them to your next spinach salad with some crumbled goat cheese .",
+          "nutrients": {
+            "per": "140g",
+            "calories": "45cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "7g",
+                "fiber": "3g",
+                "other carbohydrate": "1.1g"
+              },
+              "protein": "1g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 90,
+              "calcium": 2,
+              "iron": 6,
+              "vitamin k": 2,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Strawberries",
+            "items": [
+              "Strawberries"
+            ]
+          }
+        },
+        {
+          "name": "Red Seedless Grapes",
+          "price": 9.8,
+          "weight": "Average weight is 0.99 KG",
+          "description": "A product of South Africa, Sweet Celebration Red Seedless Grapes are temptingly sweet and distinctly crisp. Each bite delivers a juicy burst of flavour with a firm texture that makes them satisfying to snack on. Seedless and easy to enjoy, they’re perfect for adding to your lunchboxes, fruit platters, salads, and more. Serve them on a charcuterie board with cheeses, meats, and crackers when you're hosting.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "100cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "25g",
+                "sugars": "22g",
+                "fiber": "1g",
+                "other carbohydrate": "2.4g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "3mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 4,
+              "calcium": 2,
+              "iron": 6,
+              "vitamin k": 15,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Seedless Red Grapes.",
+            "items": [
+              "Seedless Red Grapes"
+            ]
+          }
+        },
+        {
+          "name": "Lemon",
+          "price": 0.99,
+          "weight": "1 ea",
+          "description": "Lemons have a bright yellow peel and can vary in size depending on the variety. This citrus fruit produces a tart, acidic juice that will add flavour to your salad dressings, beverages, and marinades. Lemon juice and rinds are also versatile ingredients for baking everything from cookies and cakes to a classic lemon meringue pie.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "10cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "5g",
+                "sugars": "0g",
+                "fiber": "2g"
+              },
+              "protein": "1g",
+              "potassium": "75mg",
+              "cholesterol": "0mg",
+              "sodium": "2mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 45,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin b6": 6,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Lemon.",
+            "items": [
+              "Lemon"
+            ]
+          }
+        },
+        {
+          "name": "Organic Bananas, Bunch",
+          "price": 2.64,
+          "weight": "Average weight is 1.1 KG",
+          "description": "Sold by the bunch.Average bunch has 6-8 bananas. Bananas are typically 6-10 inches long and have a green peel when unripe. They taste best when the peel turns yellow and is speckled with dark spots.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "120cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.2g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "32g",
+                "sugars": "17g",
+                "fiber": "4g",
+                "other carbohydrate": "11.2g"
+              },
+              "protein": "2g",
+              "potassium": "500mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 0,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 30,
+              "biotin": 15,
+              "phosphorus": 2,
+              "magnesium": 10,
+              "selenium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Banana.",
+            "items": [
+              "Banana"
+            ]
+          }
+        },
+        {
+          "name": "Cantaloupe",
+          "price": 1.99,
+          "weight": "1 ea",
+          "description": "Average weight is 3 lb.Cantaloupes have a greyish-beige skin with a raised netting overtop. The flesh is pale orange, juicy, and sweet. When ripe, cantaloupes are fragrant and yield to pressure at the blossom end. Remove the seeds and cube for a fruit salad or slice and wrap with prosciutto and mint for a refreshing summer salad.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "10g",
+                "fiber": "1g"
+              },
+              "protein": "1g",
+              "potassium": "350mg",
+              "cholesterol": "0mg",
+              "sodium": "20mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 25,
+              "vitamin c": 60,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin k": 4,
+              "thiamine": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Cantaloupe.",
+            "items": [
+              "Cantaloupe"
+            ]
+          }
+        },
+        {
+          "name": "Avocado",
+          "price": 1.79,
+          "weight": "1 ea",
+          "description": "Avocados have a pebbly skin that turns from dark green to near black when ripe. Cut lengthwise, twist to separate the halves, and scoop out the creamy, pale green flesh for guacamole (lemon juice will keep the flesh from discolouring) and smoothies, or add sliced avocado to salad or a BLT sandwich.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "7g",
+                "saturates": "1.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "5.0g",
+                "polyunsaturates": "0.9g"
+              },
+              "carbohydrate": {
+                "total": "4g",
+                "sugars": "0g",
+                "fiber": "3g",
+                "other carbohydrate": "0.6g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "4mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 10,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "pantothenate": 20,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Hass Avocado.",
+            "items": [
+              "Hass Avocado"
+            ]
+          }
+        },
+        {
+          "name": "Limes",
+          "price": 0.69,
+          "weight": "1 ea",
+          "description": "Limes are shaped like lemons but a little smaller in size. They have green skin and their green pulp produces a tart, aromatic juice that is used in everything from dressings to desserts. Try squeezing lime juice and sprinkling sea salt over grilled corn on the cob at your next barbeque.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "15cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.1g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "5g",
+                "sugars": "1g",
+                "fiber": "1g",
+                "other carbohydrate": "3.0g"
+              },
+              "protein": "0.4g",
+              "potassium": "50mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 2,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Lime.",
+            "items": [
+              "Lime"
+            ]
+          }
+        },
+        {
+          "name": "Royal Gala Apples",
+          "price": 1.38,
+          "weight": "Average weight is 0.21 KG",
+          "description": "Royal Gala apples are sweet and crisp with pink-orange stripes over a yellow background. They are juicy, fragrant, and best enjoyed raw. Try sliced Royal Gala apples on a salad with blue cheese and toasted walnuts.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Gala Apples.",
+            "items": [
+              "Gala Apples"
+            ]
+          }
+        },
+        {
+          "name": "Mandarin Oranges, 2 lb bag",
+          "price": 5.99,
+          "weight": "907 g",
+          "description": "Product descriptionProduct Number: 20099819001_EA",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "13g",
+                "sugars": "11g",
+                "fiber": "2g",
+                "other carbohydrate": "1.0g"
+              },
+              "protein": "1g",
+              "potassium": "175mg",
+              "cholesterol": "0mg",
+              "sodium": "2mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 45,
+              "calcium": 4,
+              "iron": 2,
+              "thiamine": 4,
+              "riboflavin": 2,
+              "vitamin b6": 4,
+              "pantothenate": 4,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Mandarin Orange.",
+            "items": [
+              "Mandarin Orange"
+            ]
+          }
+        },
+        {
+          "name": "Mango",
+          "price": 1.69,
+          "weight": "1 ea",
+          "description": "Mangoes have a firm, fibrous orange flesh and sweet flavour. Their skin is typically greenish-yellow with a red blush covering most of it, but colour isn’t a reliable way of way of testing for ripeness. Instead, squeeze the mango gently. If it’s ripe it will give slightly. Enjoy mango on its own, in fruit salad, or chutney.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.2g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "21g",
+                "sugars": "19g",
+                "fiber": "2g"
+              },
+              "protein": "1g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 8,
+              "vitamin c": 60,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 6,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 10,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Mangoes",
+            "items": [
+              "Mangoes"
+            ]
+          }
+        },
+        {
+          "name": "Plantains, Single",
+          "price": 1.23,
+          "weight": "Average weight is 0.33 KG",
+          "description": "Plantains are larger than regular bananas, with thicker skin and less sugar. They are typically cooked when green and have a mild flavour that is similar to squash.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "170cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.2g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "45g",
+                "sugars": "21g",
+                "fiber": "3g",
+                "other carbohydrate": "20.4g"
+              },
+              "protein": "2g",
+              "potassium": "700mg",
+              "cholesterol": "0mg",
+              "sodium": "5mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 8,
+              "vitamin c": 30,
+              "calcium": 0,
+              "iron": 6,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 25,
+              "phosphorus": 4,
+              "magnesium": 10,
+              "selenium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Plantain.",
+            "items": [
+              "Plantain"
+            ]
+          }
+        },
+        {
+          "name": "Bartlett Pears",
+          "price": 0.92,
+          "weight": "Average weight is 0.21 KG",
+          "description": "Bartlett pears are bell shaped with smooth yellowish-green skin, often with a hint of red. They are sweet and juicy, the perfect choice for eating fresh as a snack. If you decide to add pears to your next cheese tray, a little lemon juice will keep them from browning once cut.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "21g",
+                "sugars": "14g",
+                "fiber": "4g",
+                "other carbohydrate": "3.3g"
+              },
+              "protein": "1g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin k": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Bartlett Pears.",
+            "items": [
+              "Bartlett Pears"
+            ]
+          }
+        },
+        {
+          "name": "Navel Orange",
+          "price": 1.92,
+          "weight": "Average weight is 0.35 KG",
+          "description": "Navel oranges are bright orange, easy to peel, and have a sweet and seedless pulp. These popular oranges are an easy snack on the go but can also be used to glaze chicken, duck, and pork.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "17g",
+                "sugars": "13g",
+                "fiber": "3g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 80,
+              "calcium": 4,
+              "iron": 0,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 4,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Navel Oranges",
+            "items": [
+              "Navel Oranges"
+            ]
+          }
+        },
+        {
+          "name": "Pineapple",
+          "price": 4.99,
+          "weight": "1 ea",
+          "description": "Pineapples have a diamond-patterned skin that resembles a pinecone with crisp, green leaves shooting out the top. The distinctive flavour of the pineapple's golden yellow flesh is sweet and tangy. Once cut, pineapple makes a great addition to smoothies, or slice yours to make a pineapple upside-down cake.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "25cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.1g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "7g",
+                "sugars": "5g",
+                "fiber": "1g",
+                "other carbohydrate": "0.9g"
+              },
+              "protein": "0.3g",
+              "potassium": "50mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 25,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin b6": 6,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Pineapple",
+            "items": [
+              "Pineapple"
+            ]
+          }
+        },
+        {
+          "name": "Yellow Peaches",
+          "price": 1.32,
+          "weight": "Average weight is 0.2 KG",
+          "description": "Peaches range in colour from pinkish-white to reddish-yellow and their flavour can be tart or sweet. If you don't like their fuzzy skin, you can easily peel peaches by blanching them in boiling water for about 30 seconds and then plunging them into ice water. Enjoy peaches as a snack, in a pie, or grilled with prosciutto.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "13g",
+                "sugars": "11g",
+                "fiber": "2g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 10,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 4,
+              "niacin": 6,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Peaches",
+            "items": [
+              "Peaches"
+            ]
+          }
+        },
+        {
+          "name": "Strawberries 2LB",
+          "price": 8.99,
+          "weight": "907 g",
+          "description": "Strawberries vary in colour, shape, and size but their flavour is distinctively sweet. They are topped with a hull of green leaves and are speckled with seeds on the surface. Enjoy yours in classic desserts like strawberry shortcake and strawberry-rhubarb pie, or add them to your next spinach salad with some crumbled goat cheese.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "45cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "7g",
+                "fiber": "3g",
+                "other carbohydrate": "1.1g"
+              },
+              "protein": "1g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 90,
+              "calcium": 2,
+              "iron": 6,
+              "vitamin k": 2,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Strawberries",
+            "items": [
+              "Strawberries"
+            ]
+          }
+        },
+        {
+          "name": "Kiwis",
+          "price": 1.25,
+          "weight": "1 ea",
+          "description": "Green kiwis are egg-shaped with fuzzy brown skin. Inside, their green flesh is speckled with tiny black edible seeds and their flavour is sweet and sometimes tart. You can peel and slice your kiwi or just cut it in half and scoop out the flesh. They retain their bright green colour even when exposed to air so kiwi is a good choice for fruit salad and fresh fruit tarts.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "30cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "7g",
+                "sugars": "5g",
+                "fiber": "2g",
+                "other carbohydrate": "1.3g"
+              },
+              "protein": "1g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "2mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 50,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 15,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Kiwi.",
+            "items": [
+              "Kiwi"
+            ]
+          }
+        },
+        {
+          "name": "Blackberries Half Pint",
+          "price": 3.99,
+          "weight": "170 g",
+          "description": "Blackberries range in colour from dark purple to black, and generally the more intense the colour, the sweeter the taste. Blackberries are great in smoothies and salads and can easily be made into jam, or use yours for a blackberry apple pie and enjoy with ice cream.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "60cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.4g"
+              },
+              "carbohydrate": {
+                "total": "14g",
+                "sugars": "7g",
+                "fiber": "7g"
+              },
+              "protein": "2g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 30,
+              "calcium": 4,
+              "iron": 6,
+              "vitamin e": 15,
+              "vitamin k": 25,
+              "niacin": 6,
+              "biotin": 4,
+              "phosphorus": 2,
+              "magnesium": 6,
+              "zinc": 10,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Blackberries",
+            "items": [
+              "Blackberries"
+            ]
+          }
+        },
+        {
+          "name": "Naturally Imperfect Limes",
+          "price": 5.0,
+          "weight": "680 g",
+          "description": "Brighten up your day with the tangy, citrusy taste of Limes. Naturally imperfect, they deliver freshness and quality. They're perfect for making refreshing beverages or adding a zesty punch to your favourite recipes.",
+          "nutrients": {
+            "per": "Serving Size Per g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": null
+              },
+              "carbohydrate": {
+                "total": null,
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Limes.",
+            "items": [
+              "Limes"
+            ]
+          }
+        },
+        {
+          "name": "Oranges, 3 lb Bag",
+          "price": 5.99,
+          "weight": "1.36 kg",
+          "description": "Product descriptionProduct Number: 20162945001_EA",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "13g",
+                "sugars": "9g",
+                "fiber": "2g",
+                "other carbohydrate": "1.8g"
+              },
+              "protein": "1g",
+              "potassium": "175mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 100,
+              "calcium": 4,
+              "iron": 0,
+              "thiamine": 6,
+              "riboflavin": 4,
+              "vitamin b6": 4,
+              "pantothenate": 4,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Navel Orange",
+            "items": [
+              "Navel Orange"
+            ]
+          }
+        },
+        {
+          "name": "Oranges, 3 lb Bag",
+          "price": 5.99,
+          "weight": "1.36 kg",
+          "description": "Product descriptionProduct Number: 20162945001_EA",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "13g",
+                "sugars": "9g",
+                "fiber": "2g",
+                "other carbohydrate": "1.8g"
+              },
+              "protein": "1g",
+              "potassium": "175mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 100,
+              "calcium": 4,
+              "iron": 0,
+              "thiamine": 6,
+              "riboflavin": 4,
+              "vitamin b6": 4,
+              "pantothenate": 4,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Navel Orange",
+            "items": [
+              "Navel Orange"
+            ]
+          }
+        },
+        {
+          "name": "Pink Lady Apples",
+          "price": 0.93,
+          "weight": "Average weight is 0.21 KG",
+          "description": "Pink Lady apples are a cross between the Golden Delicious and Lady Williams varieties. They have pinkish-red skin and white sweet-tart flesh. Because they resist browning, Pink Lady apples are a good choice for fruit platters, or enjoy them as a fresh snack on the go.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Pink Lady Apples.",
+            "items": [
+              "Pink Lady Apples"
+            ]
+          }
+        },
+        {
+          "name": "Nectarine",
+          "price": 5.99,
+          "weight": "2 l",
+          "description": "Packaging may differ by region.Nectarines are fragrant and brightly coloured fruit with smooth skin and a firmer flesh than the peach. Nectarines become sweeter as they ripen so avoid those that are too hard or overly green. They are perfect on salads and baked in pies, or grill nectarine halves and serve with ice cream.",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "45cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "8g",
+                "fiber": "2g",
+                "other carbohydrate": "1.0g"
+              },
+              "protein": "1g",
+              "potassium": "200mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 10,
+              "calcium": 0,
+              "iron": 2,
+              "vitamin k": 2,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "pantothenate": 2,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "zinc": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Nectarine.",
+            "items": [
+              "Nectarine"
+            ]
+          }
+        },
+        {
+          "name": "Lemons, 2 lb Bag",
+          "price": 4.99,
+          "weight": "907 g",
+          "description": "Lemons have a bright yellow peel and can vary in size depending on the variety. This citrus fruit produces a tart, acidic juice that will add flavour to your salad dressings, beverages, and marinades. Lemon juice and rinds are also versatile ingredients for baking everything from cookies and cakes to a classic lemon meringue pie.",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "20cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "0g",
+                "fiber": "5g"
+              },
+              "protein": "1g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "3mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 130,
+              "calcium": 6,
+              "iron": 6,
+              "thiamine": 4,
+              "riboflavin": 2,
+              "vitamin b6": 6,
+              "pantothenate": 4,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "zinc": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Lemons.",
+            "items": [
+              "Lemons"
+            ]
+          }
+        },
+        {
+          "name": "Honeycrisp Apples",
+          "price": 2.01,
+          "weight": "Average weight is 0.24 KG",
+          "description": "Honeycrisp apples have a distinctive red-speckled, yellowish skin. They are a great snacking apple and a good choice for adding some sweetness to your salad, but they are also delicious baked in a traditional apple crisp with some brown sugar and cinnamon.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Honeycrisp Apple.",
+            "items": [
+              "Honeycrisp Apple"
+            ]
+          }
+        },
+        {
+          "name": "Granny Smith Apples",
+          "price": 1.32,
+          "weight": "Average weight is 0.2 KG",
+          "description": "Granny Smith apples are bright green and crisp with a tart flavour that is often recommended for pies. Take a Granny Smith apple with you for a snack on the go or add thin slices of apple and crisp bacon to your next grilled cheese sandwich.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Granny Smith Apple.",
+            "items": [
+              "Granny Smith Apple"
+            ]
+          }
+        },
+        {
+          "name": "Blue Grapes",
+          "price": 4.99,
+          "weight": "2 l",
+          "description": "Grapes are a type of berry fruit with a leathery covering and a fleshy inside. They grow in clusters and can be crimson, black, dark blue, yellow, green, orange, and pink.",
+          "nutrients": {
+            "per": "100g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "18g",
+                "sugars": "16g",
+                "fiber": "1g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "1g",
+              "potassium": "200mg",
+              "cholesterol": "0mg",
+              "sodium": "2mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 20,
+              "calcium": 0,
+              "iron": 2,
+              "vitamin k": 20,
+              "thiamine": 6,
+              "riboflavin": 4,
+              "vitamin b6": 4,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Blue Grapes",
+            "items": [
+              "Blue Grapes"
+            ]
+          }
+        },
+        {
+          "name": "Naturally Imperfect Avocados",
+          "price": 7.0,
+          "weight": "998 g",
+          "description": "Product descriptionProduct Number: 21699907001_EA",
+          "nutrients": {
+            "per": "Serving Size Per g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": null
+              },
+              "carbohydrate": {
+                "total": null,
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Avocados.",
+            "items": [
+              "Avocados"
+            ]
+          }
+        },
+        {
+          "name": "Raspberry Pint",
+          "price": 8.99,
+          "weight": "340 g",
+          "description": "Raspberries are delicate fruit with bright red drupelets that connect to each other around a hollow central core. Their flavour is sweet but can also be tart if they aren’t quite ripe. Add them to your morning cereal, smoothie, or yogurt, or indulge with raspberries topped with cream and chocolate shavings.",
+          "nutrients": {
+            "per": "Serving Size Per 140 g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.0g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "0g",
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0.0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Red Raspberry.",
+            "items": [
+              "Red Raspberry"
+            ]
+          }
+        },
+        {
+          "name": "Gala Apples, 4 lb bag",
+          "price": 7.99,
+          "weight": "1.81 kg",
+          "description": "Gala apples are crisp, sweet, and a little spicy with pink-orange stripes over a yellow background. They are juicy, fragrant, and best enjoyed raw. You can also caramelize Gala apples along with onions to use as a topping for pork chops",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "14g",
+                "sugars": "10g",
+                "fiber": "2g",
+                "other carbohydrate": "1.0g"
+              },
+              "protein": "0.3g",
+              "potassium": "100mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 8,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "biotin": 4,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Gala Apples.",
+            "items": [
+              "Gala Apples"
+            ]
+          }
+        },
+        {
+          "name": "Black Plums",
+          "price": 0.88,
+          "weight": "Average weight is 0.1 KG",
+          "description": "There are many varieties within each plum type, with varying appearance from light red to dark red and black skin.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "60cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.2g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "16g",
+                "sugars": "14g",
+                "fiber": "2g",
+                "other carbohydrate": "0.1g"
+              },
+              "protein": "1g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 8,
+              "niacin": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Black Plum.",
+            "items": [
+              "Black Plum"
+            ]
+          }
+        },
+        {
+          "name": "Naturally Imperfect Strawberries",
+          "price": 4.0,
+          "weight": "340 g",
+          "description": "Product descriptionProduct Number: 21591906001_EA",
+          "nutrients": {
+            "per": "Serving Size Per g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": null
+              },
+              "carbohydrate": {
+                "total": null,
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": "Strawberries.",
+            "items": [
+              "Strawberries"
+            ]
+          }
+        },
+        {
+          "name": "Yellow Nectarines",
+          "price": 1.23,
+          "weight": "Average weight is 0.14 KG",
+          "description": "Nectarines are fragrant and brightly coloured fruit with smooth skin and a firmer flesh than the peach. Nectarines become sweeter as they ripen so avoid those that are too hard or overly green. They are perfect on salads and baked in pies, or grill nectarine halves and serve with ice cream.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "60cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "15g",
+                "sugars": "11g",
+                "fiber": "2g",
+                "other carbohydrate": "1.3g"
+              },
+              "protein": "2g",
+              "potassium": "300mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 8,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 2,
+              "niacin": 15,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Nectarine.",
+            "items": [
+              "Nectarine"
+            ]
+          }
+        },
+        {
+          "name": "Red Delicious Apples",
+          "price": 1.38,
+          "weight": "Average weight is 0.21 KG",
+          "description": "Red Delicious apples have deep-red skin and crisp yellow flesh that can turn soft when cooked. They are best enjoyed fresh, so try snacking on Red Delicious apples with some peanut butter or add slices to a mixed green salad along with toasted walnuts.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Red Delicious Apples.",
+            "items": [
+              "Red Delicious Apples"
+            ]
+          }
+        },
+        {
+          "name": "Blueberries Half Pint",
+          "price": 3.99,
+          "weight": "170 g",
+          "description": "Blueberries range in colour from a deep purple-blue to a blue-black, both with a silvery sheen called bloom. Sweeten your morning by sprinkling blueberries on your cereal or pancakes, or add blueberries to a spinach salad with pecans and blue cheese.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "20g",
+                "sugars": "14g",
+                "fiber": "3g",
+                "other carbohydrate": "3.0g"
+              },
+              "protein": "1g",
+              "potassium": "100mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin e": 6,
+              "vitamin k": 25,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Blueberries",
+            "items": [
+              "Blueberries"
+            ]
+          }
+        },
+        {
+          "name": "Fuji Apples",
+          "price": 1.06,
+          "weight": "Average weight is 0.24 KG",
+          "description": "Fuji apples are a cross between the Red Delicious and Ralls Janet varieties. They are typically red with greenish-yellow stripes and have a sweet flavour. Enjoy Fuji apples fresh as a snack, in your homemade applesauce, or baked with some cinnamon and brown sugar.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Fuji Apple.",
+            "items": [
+              "Fuji Apple"
+            ]
+          }
+        },
+        {
+          "name": "Papaya",
+          "price": 7.14,
+          "weight": "Average weight is 1.3 KG",
+          "description": "Papayas are pear shaped with a golden-orange flesh and skin when ripe. Their flavour is sweet and tart, and the flesh is silky smooth. You can throw the seeds away or use them to add a peppery flavour to your favourite salad dressing. Try papaya in your next smoothie or roast with brown sugar for dessert.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "60cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "omega-3 fatty acids": "100mg",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "15g",
+                "sugars": "11g",
+                "fiber": "2g",
+                "other carbohydrate": "1.8g"
+              },
+              "protein": "1g",
+              "potassium": "250mg",
+              "cholesterol": "0mg",
+              "sodium": "10mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 8,
+              "vitamin c": 90,
+              "calcium": 2,
+              "iron": 0,
+              "vitamin k": 4,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "folate": 15,
+              "phosphorus": 2,
+              "magnesium": 6,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Red Meradol Papaya",
+            "items": [
+              "Red Meradol Papaya"
+            ]
+          }
+        },
+        {
+          "name": "Mini Seedless Watermelon",
+          "price": 5.99,
+          "weight": "1 ea",
+          "description": "Average weight is 6 lb.Mini watermelons range in size but are generally similar to a large cantaloupe. They are a sweet, refreshing snack due to their watery texture. Sliced watermelon tastes great on its own, or you can toss watermelon cubes with some feta cheese and fresh mint for a summer salad.",
+          "nutrients": {
+            "per": "280g",
+            "calories": "80cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "21g",
+                "sugars": "17g",
+                "fiber": "1g",
+                "other carbohydrate": "2.7g"
+              },
+              "protein": "2g",
+              "potassium": "300mg",
+              "cholesterol": "0mg",
+              "sodium": "3mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 8,
+              "vitamin c": 25,
+              "calcium": 2,
+              "iron": 6,
+              "thiamine": 8,
+              "riboflavin": 8,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 10,
+              "pantothenate": 20,
+              "phosphorus": 2,
+              "magnesium": 6,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Baby Watermelon",
+            "items": [
+              "Baby Watermelon"
+            ]
+          }
+        },
+        {
+          "name": "Ambrosia Apples",
+          "price": 1.45,
+          "weight": "Average weight is 0.22 KG",
+          "description": "Ambrosia apples are sweet and crisp with bright pink skin and a honeyed flavour. Because they resist browning and hold their shape well, Ambrosia apples are a good choice for fruit platters and for pies.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "70cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "19g",
+                "sugars": "15g",
+                "fiber": "3g",
+                "other carbohydrate": "1.4g"
+              },
+              "protein": "0.4g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 6,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "chromium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Ambrosia Apples.",
+            "items": [
+              "Ambrosia Apples"
+            ]
+          }
+        },
+        {
+          "name": "Apple, Paula Red",
+          "price": 0.66,
+          "weight": "Average weight is 0.2 KG",
+          "description": "Paula Red apples look similar to McIntosh apples, with bright red skin that is sometimes tinged with green. They have a tart flavour and are a good choice for homemade applesauce, or try slices of Paula Red apples in your next green salad.",
+          "nutrients": {
+            "per": "100g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "14g",
+                "sugars": "10g",
+                "fiber": "2g",
+                "other carbohydrate": "1.0g"
+              },
+              "protein": "0.3g",
+              "potassium": "100mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 8,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "biotin": 4,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Paula Red Apple.",
+            "items": [
+              "Paula Red Apple"
+            ]
+          }
+        },
+        {
+          "name": "Blue Plums",
+          "price": 5.99,
+          "weight": "1.5 l",
+          "description": "Plums are available in a wide range of colours including black, yellow, and red. Their flavour also ranges from very sweet to tart, and they can be enjoyed cooked or raw. Add sliced fresh plums to your morning oatmeal or yogurt, or roast and serve with chicken or duck.",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "45cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.3g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "10g",
+                "fiber": "2g"
+              },
+              "protein": "1g",
+              "potassium": "150mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 15,
+              "calcium": 0,
+              "iron": 2,
+              "vitamin k": 8,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "pantothenate": 2,
+              "phosphorus": 2,
+              "magnesium": 2,
+              "zinc": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Blue Plums.",
+            "items": [
+              "Blue Plums"
+            ]
+          }
+        },
+        {
+          "name": "Naturally Imperfect Apples, 6 lb bag",
+          "price": 7.5,
+          "weight": "2.72 kg",
+          "description": "Apples belong to the Rose family of plants, have a crisp flesh and can be sweet or tart depending on the variety. Enjoy apples fresh as a snack, sliced over a salad, or baked in a pie or crisp.",
+          "nutrients": {
+            "per": "Serving Size Per 100 g",
+            "calories": "50cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.2g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.1g"
+              },
+              "carbohydrate": {
+                "total": "14g",
+                "sugars": "10g",
+                "fiber": "2g",
+                "other carbohydrate": "1.0g"
+              },
+              "protein": "0.3g",
+              "potassium": "100mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 8,
+              "calcium": 0,
+              "iron": 0,
+              "vitamin k": 2,
+              "thiamine": 2,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "biotin": 4,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Apples.",
+            "items": [
+              "Apples"
+            ]
+          }
+        },
+        {
+          "name": "Organic Raspberries Half Pint",
+          "price": 6.49,
+          "weight": "170 g",
+          "description": "Raspberries are delicate fruit with bright red drupelets that connect to each other around a hollow central core. Their flavour is sweet but can also be tart if they aren’t quite ripe. Add them to your morning cereal, smoothie, or yogurt, or indulge with raspberries topped with cream and chocolate shavings.",
+          "nutrients": {
+            "per": "140g",
+            "calories": "45cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.4g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g",
+                "monounsaturates": "0.1g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "7g",
+                "fiber": "3g",
+                "other carbohydrate": "1.1g"
+              },
+              "protein": "1g",
+              "potassium": "225mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 90,
+              "calcium": 2,
+              "iron": 6,
+              "vitamin k": 2,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "biotin": 6,
+              "phosphorus": 2,
+              "magnesium": 4,
+              "selenium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Organic Raspberries.",
+            "items": [
+              "Organic Raspberries"
+            ]
+          }
+        },
+        {
+          "name": "Red Grapefruit, 3 lb Bag",
+          "price": 7.99,
+          "weight": "1.36 kg",
+          "description": "Grapefruit is a juicy citrus fruit with yellow skin that sometimes has a pinkish hue. Grapefruits that feel heavy for their size will likely be the juiciest. Their sweet and sour flavour makes them a refreshing way to start your day and liven up summer salads, and they also taste great broiled with a little brown sugar",
+          "nutrients": {
+            "per": "100g",
+            "calories": "40cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.1g",
+                "saturates": "0.0g",
+                "+ trans": "0.0g"
+              },
+              "carbohydrate": {
+                "total": "11g",
+                "sugars": "7g",
+                "fiber": "2g",
+                "other carbohydrate": "2.2g"
+              },
+              "protein": "1g",
+              "potassium": "125mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin c": 50,
+              "calcium": 2,
+              "iron": 0,
+              "thiamine": 4,
+              "riboflavin": 2,
+              "vitamin b6": 2,
+              "pantothenate": 4,
+              "phosphorus": 2,
+              "magnesium": 4
+            }
+          },
+          "ingredients": {
+            "raw": "Ruby Red Grapefruit.",
+            "items": [
+              "Ruby Red Grapefruit"
+            ]
+          }
+        },
+        {
+          "name": "Guava",
+          "price": 6.61,
+          "weight": "Average weight is 0.5 KG",
+          "description": "Guavas are tropical fruit with a slightly oval shape that ranges in size depending on the variety. Their skin and flesh can be yellow or red and they have a sweet flavour that can also be somewhat acidic. Guava is often used to make jams and jellies, or puréed as a base for beverages.",
+          "nutrients": {
+            "per": "50g",
+            "calories": "35cal",
+            "macronutrients": {
+              "fat": {
+                "total": "0.5g",
+                "saturates": "0.1g",
+                "+ trans": "0.0g",
+                "polyunsaturates": "0.2g"
+              },
+              "carbohydrate": {
+                "total": "7g",
+                "sugars": "5g",
+                "fiber": "3g"
+              },
+              "protein": "1g",
+              "potassium": "200mg",
+              "cholesterol": "0mg",
+              "sodium": "1mg"
+            },
+            "micronutrients (percent)": {
+              "vitamin a": 2,
+              "vitamin c": 130,
+              "calcium": 0,
+              "iron": 0,
+              "niacin": 6,
+              "vitamin b6": 6,
+              "phosphorus": 2,
+              "magnesium": 2
+            }
+          },
+          "ingredients": {
+            "raw": "Guava.",
+            "items": [
+              "Guava"
+            ]
+          }
+        },
+        {
+          "name": "Bartlett Pear, 2 L",
+          "price": 4.99,
+          "weight": "1 ea",
+          "description": "Product descriptionProduct Number: 21111368001_EA",
+          "nutrients": {
+            "per": "Serving Size Per g",
+            "calories": "0cal",
+            "macronutrients": {
+              "fat": {
+                "total": null
+              },
+              "carbohydrate": {
+                "total": null,
+                "sugars": "0g",
+                "fiber": "0g"
+              },
+              "protein": "0g",
+              "potassium": "0mg",
+              "cholesterol": "0mg",
+              "sodium": "0mg"
+            },
+            "micronutrients (percent)": {
+              "calcium": 0,
+              "iron": 0
+            }
+          },
+          "ingredients": {
+            "raw": null,
+            "items": []
+          }
+        }
+      ]
+    }
+  ]
+}

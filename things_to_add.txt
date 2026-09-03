@@ -3,3 +3,9 @@
 3. Update fridge to favor left over product
 4. Context window? Compute for the next week/next day/next month
 5. Take rotting/going bad into account
+6. nutrition value changes when cooked
+7. distinguish between sugar from fruit and sugar from junk
+8. know if its fortified or not.
+9. know about veg proteins (complete/incomplete)
+10. cooking w olive oil vs butter differs in nutrition???
+11. nutrition combos. Vitamin D and iron.

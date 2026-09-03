@@ -1,0 +1,215 @@
+{
+  "serving_size": {
+    "raw": "Serving Size Per 5.0 oz (140 g)",
+    "amount": 5.0,
+    "unit": "oz",
+    "metric_amount": 140,
+    "metric_unit": "g"
+  },
+  "nutrients": [
+    {
+      "name": "Calories",
+      "amount": 120,
+      "unit": "cal",
+      "percent_daily_value": null,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Fat",
+      "amount": 0.5,
+      "unit": "g",
+      "percent_daily_value": 0,
+      "is_micronutrient": false,
+      "sub_nutrients": [
+        {
+          "name": "Saturates",
+          "amount": 0.2,
+          "unit": "g",
+          "percent_daily_value": null,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        },
+        {
+          "name": "+ Trans",
+          "amount": 0.0,
+          "unit": "g",
+          "percent_daily_value": 0,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        },
+        {
+          "name": "Polyunsaturates",
+          "amount": 0.1,
+          "unit": "g",
+          "percent_daily_value": null,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        }
+      ]
+    },
+    {
+      "name": "Carbohydrate",
+      "amount": 32,
+      "unit": "g",
+      "percent_daily_value": null,
+      "is_micronutrient": false,
+      "sub_nutrients": [
+        {
+          "name": "Sugars",
+          "amount": 17,
+          "unit": "g",
+          "percent_daily_value": null,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        },
+        {
+          "name": "Fiber",
+          "amount": 4,
+          "unit": "g",
+          "percent_daily_value": 14,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        },
+        {
+          "name": "Other Carbohydrate",
+          "amount": 11.2,
+          "unit": "g",
+          "percent_daily_value": null,
+          "is_micronutrient": false,
+          "sub_nutrients": []
+        }
+      ]
+    },
+    {
+      "name": "Protein",
+      "amount": 2,
+      "unit": "g",
+      "percent_daily_value": null,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Potassium",
+      "amount": 500,
+      "unit": "mg",
+      "percent_daily_value": 10,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Cholesterol",
+      "amount": 0,
+      "unit": "mg",
+      "percent_daily_value": null,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Sodium",
+      "amount": 1,
+      "unit": "mg",
+      "percent_daily_value": 0,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Vitamin C",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 15,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Calcium",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 0,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Iron",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 0,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Riboflavin",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 8,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Niacin",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 6,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Vitamin B6",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 30,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Biotin",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 15,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Phosphorus",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 2,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Magnesium",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 10,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Selenium",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 2,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    },
+    {
+      "name": "Chromium",
+      "amount": null,
+      "unit": null,
+      "percent_daily_value": 2,
+      "is_micronutrient": false,
+      "sub_nutrients": []
+    }
+  ],
+  "ingredients": {
+    "raw": "Banana.",
+    "items": [
+      "Banana"
+    ]
+  },
+  "disclaimer": [
+    "*5% or less is a little, 15% or more is a lot",
+    "The values stated are approximate and may not be fully representational of this products vitamins, nutrients and ingredients."
+  ]
+}
