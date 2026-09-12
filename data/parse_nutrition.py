@@ -379,7 +379,7 @@ def main():
             f.write(output_json)
         print(f"Wrote {args.output}")
     else:
-        print(output_json)
+        print(f'Wrote item: {result["name"]}')
 
     if args.merge_into:
         count = merge_into_category_file(result, args.merge_into, args.category)
