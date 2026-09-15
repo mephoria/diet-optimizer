@@ -140,7 +140,7 @@ if __name__ == "__main__":
     try:
         initialize_failed_csv()
 
-        for page_number in range(71, 210):
+        for page_number in range(87, 210):
             page_url = (
                 "https://www.nofrills.ca/en/food/c/27985"
                 f"?page={page_number}"

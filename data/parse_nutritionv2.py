@@ -58,6 +58,7 @@ import sys
 import json
 import argparse
 from bs4 import BeautifulSoup
+import logging
 
 
 # ---------------------------------------------------------------------------
@@ -327,8 +328,9 @@ def body_to_json(html):
         tree = nest_into_tree(breadcrumb, product, tree)
         with open(PARENT_PATH, "w", encoding="utf-8") as f:
             json.dump(tree, f, indent=2, ensure_ascii=False)
-        print(f"Merged '{product['name']}' into {PARENT_PATH} under "
-              f"{' > '.join(breadcrumb)}", file=sys.stderr)
+        detail = f"Merged '{product['name']}' into {PARENT_PATH} under {' > '.join(breadcrumb)}"
+        logging.info(detail)
+        print(detail)
         return
 
     catalog = nest_into_tree(breadcrumb, product)
