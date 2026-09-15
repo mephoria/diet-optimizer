@@ -306,34 +306,18 @@ def build_catalog(html: str) -> dict:
 # CLI
 # ---------------------------------------------------------------------------
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Convert a product page HTML into a breadcrumb-nested JSON catalog."
-    )
-    parser.add_argument("input", nargs="?", help="Path to input HTML file ('-' for stdin).")
-    parser.add_argument("output", nargs="?", help="Path to output JSON file (omit to print to stdout).")
-    parser.add_argument("--html", help="Inline HTML string instead of a file path.")
-    parser.add_argument(
-        "--merge-into",
-        help="Path to an existing catalog JSON file to merge this product into "
-             "(created if missing); shared branches are reused automatically.",
-    )
-    args = parser.parse_args()
+def body_to_json(html):
 
-    if args.html:
-        html = args.html
-    elif args.input and args.input != "-":
-        with open(args.input, "r", encoding="utf-8") as f:
-            html = f.read()
-    else:
-        html = sys.stdin.read()
+    OUTPUT_PATH = "automated.json"
+    PARENT_PATH = "products.json"
+
 
     product = build_product_record(html)
     breadcrumb = product["breadcrumb"]
 
-    if args.merge_into:
-        if os.path.exists(args.merge_into):
-            with open(args.merge_into, "r", encoding="utf-8") as f:
+    if PARENT_PATH:
+        if os.path.exists(PARENT_PATH):
+            with open(PARENT_PATH, "r", encoding="utf-8") as f:
                 try:
                     tree = json.load(f)
                 except json.JSONDecodeError:
@@ -341,19 +325,19 @@ def main():
         else:
             tree = {}
         tree = nest_into_tree(breadcrumb, product, tree)
-        with open(args.merge_into, "w", encoding="utf-8") as f:
+        with open(PARENT_PATH, "w", encoding="utf-8") as f:
             json.dump(tree, f, indent=2, ensure_ascii=False)
-        print(f"Merged '{product['name']}' into {args.merge_into} under "
+        print(f"Merged '{product['name']}' into {PARENT_PATH} under "
               f"{' > '.join(breadcrumb)}", file=sys.stderr)
         return
 
     catalog = nest_into_tree(breadcrumb, product)
     output_json = json.dumps(catalog, indent=2, ensure_ascii=False)
 
-    if args.output:
-        with open(args.output, "w", encoding="utf-8") as f:
+    if OUTPUT_PATH:
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
             f.write(output_json)
-        print(f"Wrote {args.output}")
+        print(f"Wrote {OUTPUT_PATH}")
     else:
         print(output_json)
 

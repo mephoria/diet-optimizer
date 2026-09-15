@@ -1,0 +1,4 @@
+Cheapest most nutritious
+Expensive and least nutritious
+Group of foods above a certain threshold (dollar/calorie, calorie/vitamin etc)
+Undervalued foods
