@@ -1,11 +1,18 @@
-1. Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
-2. Remember past meals and penalize accordingly
-3. Update fridge to favor left over product
-4. Context window? Compute for the next week/next day/next month
-5. Take rotting/going bad into account
-6. nutrition value changes when cooked
-7. distinguish between sugar from fruit and sugar from junk
-8. know if its fortified or not.
-9. know about veg proteins (complete/incomplete)
-10. cooking w olive oil vs butter differs in nutrition???
-11. nutrition combos. Vitamin D and iron.
+==== VERSION 1 ====
+Create the linear program
+Think of a way to run the food items through the linear program and compute.
+
+==== VERSION 2 ====
+Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
+Remember past meals and penalize accordingly
+Update fridge to favor left over product
+Context window? Compute for the next week/next day/next month
+Take rotting/going bad into account
+
+==== VERSION 3 ====
+nutrition value changes when cooked
+distinguish between sugar from fruit and sugar from junk
+know if its fortified or not.
+know about veg proteins (complete/incomplete)
+cooking w olive oil vs butter differs in nutrition???
+nutrition combos. Vitamin D and iron.
