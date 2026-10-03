@@ -1,0 +1,5 @@
+Some products don't display g or ml information. It is impossible to guess. I will be using serving_size as my unit metric.
+
+I am going to omit the dollar side as not all essential foods have the dollar/g information.
+
+Some nutrients are not in the nutrition facts at all. For example, manganese?

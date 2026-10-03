@@ -3,6 +3,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 from typing import Optional
+import json
+import numpy as np
 
 _QUANTITY_RE = re.compile(r"^(-?\d+\.?\d*)\s*([a-zA-Z%]*)$")
 
@@ -208,3 +210,75 @@ class FoodItem:
             nutrients=Nutrients.from_dict(d["nutrients"]) if isinstance(d.get("nutrients"), dict) else None,
             breadcrumb=list(d.get("breadcrumb", []) or []),
         )
+
+def parse_foods():
+    with open("products.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    products = []
+    def walk(node):
+        if isinstance(node, dict):
+            if "products" in node:
+                products.extend(node["products"])
+            for v in node.get("subcategories", {}).values():
+                walk(v)
+    walk(data["home"])
+
+    return [FoodItem.from_dict(p) for p in products]
+
+def extract_measurement(per_str):
+    paren_match = re.search(r'\(([\d.]+)\s*([a-zA-Z]+)\)', per_str)
+    if paren_match:
+        value, unit = paren_match.groups()
+        return float(value), unit
+
+    trailing_match = re.search(r'([\d.]+)\s*([a-zA-Z]+)\s*$', per_str)
+    if trailing_match:
+        value, unit = trailing_match.groups()
+        return float(value), unit
+
+    return None, None
+
+NUTRIENT_PATHS = {
+    "calories":    ("calories",),
+    "protein":     ("macronutrients", "protein"),
+    "fat_total":   ("macronutrients", "fat", "total"),
+    "saturates":   ("macronutrients", "fat", "saturates"),
+    "trans":       ("macronutrients", "fat", "trans"),
+    "carb_total":  ("macronutrients", "carbohydrate", "total"),
+    "sugars":      ("macronutrients", "carbohydrate", "sugars"),
+    "fiber":       ("macronutrients", "carbohydrate", "fiber"),
+    "sodium":      ("macronutrients", "sodium"),
+    "potassium":   ("macronutrients", "potassium"),
+    "cholesterol": ("macronutrients", "cholesterol"),
+}
+
+
+def _get_quantity_value(nutrients_obj, path):
+    node = nutrients_obj
+    for attr in path:
+        node = getattr(node, attr, None)
+        if node is None:
+            return 0.0
+    return node.value if node.value is not None else 0.0
+
+
+def build_nutrient_matrix(food_items, nutrient_names=tuple(NUTRIENT_PATHS)):
+    columns, serving_grams, food_names = [], [], []
+
+    for item in food_items:
+        row_values = np.zeros(len(nutrient_names))
+        if item.nutrients is not None:
+            for i, name in enumerate(nutrient_names):
+                row_values[i] = _get_quantity_value(item.nutrients, NUTRIENT_PATHS[name])
+            serving_val, _ = extract_measurement(item.nutrients.per)
+        else:
+            serving_val = None
+
+        grams = serving_val if serving_val else 1.0
+        columns.append(row_values / grams)   # normalize to per-gram
+        serving_grams.append(grams)
+        food_names.append(item.name)
+
+    A = np.column_stack(columns)   # shape: (n_nutrients, n_foods)
+    return A, food_names, np.array(serving_grams)

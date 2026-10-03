@@ -1,0 +1,24 @@
+==== VERSION 1 ====
+Create the linear program
+Think of a way to run the food items through the linear program and compute.
+
+==== VERSION 2 ====
+Functionality to plan around what you ate that day. (have python notebooks to make addition easier)
+Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
+Remember past meals and penalize accordingly
+Update fridge to favor left over product
+Context window? Compute for the next week/next day/next month
+Take rotting/going bad into account
+
+==== VERSION 3 ====
+nutrition value changes when cooked
+distinguish between sugar from fruit and sugar from junk
+know if its fortified or not.
+know about veg proteins (complete/incomplete)
+cooking w olive oil vs butter differs in nutrition???
+nutrition combos. Vitamin D and iron.
+
+==== VERSION 4 ====
+Weigh the missing stuff in person
+GET PURE MEASUREMENTS OF MICRONUTRIENTS, NOT JUST THE PERCENTAGES
+

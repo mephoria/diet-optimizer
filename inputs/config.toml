@@ -1,0 +1,6 @@
+[metrics]
+weight_kg = 100
+height_cm = 183
+age = 22
+activity_level = 'inactive'
+gender = 'male'
