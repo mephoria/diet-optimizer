@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-from parse_nutritionv2 import body_to_json
+from src.data.parse_nutritionv2 import body_to_json
 
 
 FAILED_CSV = "failed_urls.csv"

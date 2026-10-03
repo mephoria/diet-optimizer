@@ -45,7 +45,7 @@ from typing import Optional
 
 import numpy as np
 
-from food import FoodItem, parse_foods, extract_measurement, _get_quantity_value
+from models.food import FoodItem, parse_foods, extract_measurement, _get_quantity_value
 
 NUTRIENT_PATHS = {
     "calories": ("calories",),
