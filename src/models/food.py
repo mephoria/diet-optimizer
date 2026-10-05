@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, fields, replace
 from typing import Optional
 import json
 import numpy as np
@@ -26,6 +26,17 @@ def parse_quantity(raw: Optional[str]) -> Optional["Quantity"]:
 class Quantity:
     value: Optional[float] = None
     unit: Optional[str] = None
+
+    def __mul__(self, multiplier):
+        if not isinstance(multiplier, (int, float)):
+            return NotImplemented
+
+        return replace(
+            self,
+            value=self.value * multiplier if self.value is not None else None,
+        )
+
+    __rmul__ = __mul__
 
 
 @dataclass
@@ -68,6 +79,17 @@ class FatBreakdown:
             omega_3_fatty_acids=parse_quantity(d.get("omega-3 fatty acids")),
         )
 
+    def multiply(self, multiplier) -> FatBreakdown:
+        return self * multiplier
+
+    def __mul__(self, multiplier):
+        if not isinstance(multiplier, (int, float)):
+            return NotImplemented
+
+        return _multiply_fields(self, multiplier)
+
+    __rmul__ = __mul__
+
 
 @dataclass
 class CarbohydrateBreakdown:
@@ -84,6 +106,17 @@ class CarbohydrateBreakdown:
             fiber=parse_quantity(d.get("fiber")),
             other_carbohydrate=parse_quantity(d.get("other carbohydrate")),
         )
+
+    def multiply(self, multiplier) -> CarbohydrateBreakdown:
+        return self * multiplier
+
+    def __mul__(self, multiplier):
+        if not isinstance(multiplier, (int, float)):
+            return NotImplemented
+
+        return _multiply_fields(self, multiplier)
+
+    __rmul__ = __mul__
 
 
 @dataclass
@@ -107,6 +140,16 @@ class Macronutrients:
             cholesterol=parse_quantity(d.get("cholesterol")),
             sodium=parse_quantity(d.get("sodium")),
         )
+
+    def multiply(self, multiplier):
+        scaled = {}
+
+        for field in fields(self):
+            value = getattr(self, field.name)
+            scaled[field.name] = value * multiplier if value is not None else None
+
+        return replace(self, **scaled)
+
 
 
 @dataclass
@@ -157,6 +200,15 @@ class MicronutrientsPercent:
             chromium=parse_quantity(d.get("chromium")),
         )
 
+    def multiply(self, multiplier):
+            scaled = {}
+    
+            for field in fields(self):
+                value = getattr(self, field.name)
+                scaled[field.name] = value * multiplier if value is not None else None
+    
+            return replace(self, **scaled)
+
 
 @dataclass
 class Nutrients:
@@ -177,6 +229,18 @@ class Nutrients:
             if isinstance(d.get("micronutrients_percent"), dict)
             else None,
         )
+
+    def compute_amount(self, amount):
+
+        multiplier = amount / extract_measurement(self.per)[0]
+
+        calories = self.calories.value * multiplier
+        macronutrients = self.macronutrients.multiply(multiplier)
+        micronutrients_percent = self.micronutrients_percent.multiply(multiplier)
+
+        return calories, macronutrients, micronutrients_percent
+
+
 
 
 @dataclass
@@ -212,7 +276,7 @@ class FoodItem:
         )
 
 def parse_foods():
-    with open("products.json", "r", encoding="utf-8") as f:
+    with open("data/products.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     products = []
@@ -262,6 +326,17 @@ def _get_quantity_value(nutrients_obj, path):
             return 0.0
     return node.value if node.value is not None else 0.0
 
+def _multiply_fields(obj, multiplier):
+    scaled = {}
+
+    for dataclass_field in fields(obj):
+        value = getattr(obj, dataclass_field.name)
+        scaled[dataclass_field.name] = (
+            value * multiplier if value is not None else None
+        )
+
+    return replace(obj, **scaled)
+
 
 def build_nutrient_matrix(food_items, nutrient_names=tuple(NUTRIENT_PATHS)):
     columns, serving_grams, food_names = [], [], []
@@ -282,3 +357,11 @@ def build_nutrient_matrix(food_items, nutrient_names=tuple(NUTRIENT_PATHS)):
 
     A = np.column_stack(columns)   # shape: (n_nutrients, n_foods)
     return A, food_names, np.array(serving_grams)
+
+def get_details(food_name):
+    foods = parse_foods()
+
+    for food in foods:
+        if food.name:
+            if food_name == food.name:
+                return food

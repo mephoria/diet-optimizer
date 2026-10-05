@@ -310,7 +310,7 @@ def build_catalog(html: str) -> dict:
 def body_to_json(html):
 
     OUTPUT_PATH = "automated.json"
-    PARENT_PATH = "products.json"
+    PARENT_PATH = "data/products.json"
 
 
     product = build_product_record(html)

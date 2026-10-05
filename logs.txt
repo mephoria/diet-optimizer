@@ -1,0 +1,3 @@
+2026-10-04 11:25:16,914 [INFO] patching driver executable C:\Users\sdeni\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-10-04 11:25:38,383 [INFO] patching driver executable C:\Users\sdeni\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-10-04 11:26:47,654 [INFO] patching driver executable C:\Users\sdeni\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe

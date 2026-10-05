@@ -3,6 +3,8 @@ Create the linear program
 Think of a way to run the food items through the linear program and compute.
 
 ==== VERSION 2 ====
+[X] [painpoint] add the tool to add items from htmls.
+Add dollar amount to ConsumptionRecord
 Functionality to plan around what you ate that day. (have python notebooks to make addition easier)
 Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
 Remember past meals and penalize accordingly

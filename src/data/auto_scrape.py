@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-from src.data.parse_nutritionv2 import body_to_json
+from data.parse_nutritionv2 import body_to_json
 
 
 FAILED_CSV = "failed_urls.csv"
@@ -142,8 +142,8 @@ if __name__ == "__main__":
 
         for page_number in range(128, 210):
             page_url = (
-                "https://www.nofrills.ca/en/food/c/27985"
-                f"?page={page_number}"
+                "https://www.nofrills.ca/en/search?search-bar=Honeycrisp"
+                # f"?page={page_number}"
             )
 
             driver = uc.Chrome(
