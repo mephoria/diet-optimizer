@@ -3,134 +3,134 @@
     {
       "meal": {
         "date": "2026-10-05",
-        "item": "Kiymali Makarna's leftovers, (%45.195895522388064 remain)",
-        "amount": 969.0000000000001,
-        "calories": 2329.4023631840796,
+        "item": "Kiymali Makarna's leftovers, (%45.195895522388064 remain)'s leftovers, (%63.57069143446853 remain)",
+        "amount": 616.0000000000001,
+        "calories": 1480.8171885669692,
         "macronutrients": {
           "fat": {
             "total": {
-              "value": 50.192966417910455,
+              "value": 31.908015803336266,
               "unit": "g"
             },
             "saturates": {
-              "value": 17.576181592039802,
+              "value": 11.17330016583748,
               "unit": "g"
             },
             "trans": {
-              "value": 1.5065298507462686,
+              "value": 0.9577114427860697,
               "unit": "g"
             },
             "monounsaturates": {
-              "value": 20.087064676616915,
+              "value": 12.769485903814262,
               "unit": "g"
             },
             "polyunsaturates": {
-              "value": 1.5065298507462686,
+              "value": 0.9577114427860697,
               "unit": "g"
             },
             "omega_3_fatty_acids": null
           },
           "carbohydrate": {
             "total": {
-              "value": 306.03470149253735,
+              "value": 194.54837576821777,
               "unit": "g"
             },
             "sugars": {
-              "value": 19.02481343283582,
+              "value": 12.09420544337138,
               "unit": "g"
             },
             "fiber": {
-              "value": 11.687126865671642,
+              "value": 7.429587357330993,
               "unit": "g"
             },
             "other_carbohydrate": {
-              "value": 2.467164179104478,
+              "value": 1.5683933274802462,
               "unit": "g"
             }
           },
           "protein": {
-            "value": 149.04755597014926,
+            "value": 94.75056189640037,
             "unit": "g"
           },
           "potassium": {
-            "value": 2653.0581467661696,
+            "value": 1686.5674080577508,
             "unit": "mg"
           },
           "cholesterol": {
-            "value": 251.08830845771146,
+            "value": 159.6185737976783,
             "unit": "mg"
           },
           "sodium": {
-            "value": 280.01486318407956,
+            "value": 178.00738464540044,
             "unit": "mg"
           }
         },
         "micronutrients_percent": {
           "vitamin_a": {
-            "value": 2.5309701492537315,
+            "value": 1.6089552238805973,
             "unit": "%"
           },
           "vitamin_c": {
-            "value": 55.72388059701493,
+            "value": 35.42405618964004,
             "unit": "%"
           },
           "vitamin_d": null,
           "vitamin_e": {
-            "value": 7.592910447761193,
+            "value": 4.826865671641791,
             "unit": "%"
           },
           "vitamin_k": {
-            "value": 17.63644278606965,
+            "value": 11.211608623548923,
             "unit": "%"
           },
           "thiamine": {
-            "value": 40.17412935323383,
+            "value": 25.538971807628524,
             "unit": "%"
           },
           "riboflavin": {
-            "value": 50.2176616915423,
+            "value": 31.923714759535663,
             "unit": "%"
           },
           "niacin": null,
           "vitamin_b6": {
-            "value": 88.02388059701492,
+            "value": 55.95738952297337,
             "unit": "%"
           },
           "folate": null,
           "vitamin_b12": {
-            "value": 451.95895522388065,
+            "value": 287.31343283582095,
             "unit": "%"
           },
           "pantothenate": {
-            "value": 50.2176616915423,
+            "value": 31.923714759535663,
             "unit": "%"
           },
           "biotin": {
-            "value": 8.507462686567164,
+            "value": 5.408252853380159,
             "unit": "%"
           },
           "calcium": {
-            "value": 11.272388059701493,
+            "value": 7.16593503072871,
             "unit": "%"
           },
           "iron": {
-            "value": 78.93034825870647,
+            "value": 50.17656813969369,
             "unit": "%"
           },
           "phosphorus": {
-            "value": 77.02798507462686,
+            "value": 48.96722270997951,
             "unit": "%"
           },
           "magnesium": {
-            "value": 44.406592039801,
+            "value": 28.229577602185156,
             "unit": "%"
           },
           "zinc": {
-            "value": 225.97947761194033,
+            "value": 143.65671641791047,
             "unit": "%"
           },
           "selenium": {
-            "value": 150.65298507462686,
+            "value": 95.77114427860697,
             "unit": "%"
           },
           "chromium": null

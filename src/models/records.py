@@ -322,7 +322,7 @@ def add_nutrients(left, right):
         },
     )
 
-def zero_consumption_record() -> ConsumptionRecord:
+def zero_consumption_record(date=date.today()) -> ConsumptionRecord:
     def zero_fields(cls, unit):
         return cls(**{
             field.name: Quantity(value=0.0, unit=unit)
@@ -330,7 +330,7 @@ def zero_consumption_record() -> ConsumptionRecord:
         })
 
     return ConsumptionRecord(
-        date=date.today(),
+        date=date,
         item="Total",
         amount=0.0,
         calories=0.0,
