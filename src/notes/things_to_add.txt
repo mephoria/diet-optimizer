@@ -5,6 +5,8 @@ Think of a way to run the food items through the linear program and compute.
 ==== VERSION 2 ====
 [X] [painpoint] add the tool to add items from htmls.
 Add dollar amount to ConsumptionRecord
+Update the fridge items from consumption construction etc. Start subtraction through a 'save' function.
+Custom addition logic for food items that are not on no frills(restaurants, alcohol etc)
 Functionality to plan around what you ate that day. (have python notebooks to make addition easier)
 Daily script to update weight. (last update: if it has been updated in a different calendar day update etc..)
 Remember past meals and penalize accordingly

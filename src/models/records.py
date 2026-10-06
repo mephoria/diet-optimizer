@@ -64,12 +64,40 @@ class WorkoutRecord:
 
 @dataclass
 class ConsumptionRecord:
-    date: datetime
+    date: date
     item: str
     amount: float
     calories: int
     macronutrients: Macronutrients
     micronutrients_percent: MicronutrientsPercent
+
+    def multiply(self, multiplier):
+        result = ConsumptionRecord(
+            date=self.date,
+            item=self.item,
+            amount=self.amount * multiplier,
+            calories=self.calories * multiplier,
+            macronutrients=self.macronutrients.multiply(multiplier),
+            micronutrients_percent=self.micronutrients_percent.multiply(multiplier)
+        )
+
+        return result
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "ConsumptionRecord":
+        return cls(
+            date=date.fromisoformat(data["date"]),
+            item=data["item"],
+            amount=data["amount"],
+            calories=data["calories"],
+            macronutrients=macronutrients_from_dict(
+                data["macronutrients"]
+            ),
+            micronutrients_percent=quantity_fields_from_dict(
+                MicronutrientsPercent,
+                data["micronutrients_percent"],
+            ),
+        )
 
     @classmethod
     def construct_consumption(cls, name, amount, food_list, cutoff):
