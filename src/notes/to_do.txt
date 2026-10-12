@@ -1,0 +1,6 @@
+[X] Double check vector matrix logic
+[] Polish ease of use
+[X] Remainder calculation
+[] MCP server?
+[] Functionality to add custom data to products.json
+[] Make consumption output price

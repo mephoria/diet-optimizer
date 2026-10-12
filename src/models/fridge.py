@@ -68,6 +68,6 @@ class FridgeItem:
 
         eaten = self.meal.multiply(multiplier)
         self.meal = self.meal.multiply(remaining_ratio)
-        self.meal.item = f"{self.meal.item}'s leftovers, (%{remaining_ratio * 100} remain)"
+        self.meal.item = self.meal.item
 
         return eaten

@@ -275,6 +275,92 @@ class FoodItem:
             breadcrumb=list(d.get("breadcrumb", []) or []),
         )
 
+    # def __repr__(self):
+    #     def format_quantity(quantity):
+    #         if quantity is None or quantity.value is None:
+    #             return None
+
+    #         unit = quantity.unit or ""
+    #         return f"{quantity.value:,.2f} {unit}".rstrip()
+
+    #     def add_quantity(lines, label, quantity, indent=2):
+    #         formatted = format_quantity(quantity)
+    #         if formatted is not None:
+    #             lines.append(f"{' ' * indent}{label}: {formatted}")
+
+    #     lines = [self.name or "Unnamed food"]
+
+    #     if self.price is not None:
+    #         lines.append(f"Price: ${self.price:,.2f}")
+
+    #     nutrients = self.nutrients
+
+    #     if nutrients is None:
+    #         return "\n".join(lines)
+
+    #     if nutrients.per:
+    #         lines.append(f"Serving: {nutrients.per}")
+
+    #     add_quantity(lines, "Calories", nutrients.calories, indent=0)
+
+    #     macros = nutrients.macronutrients
+
+    #     if macros is not None:
+    #         lines.append("Macronutrients:")
+
+    #         if macros.fat is not None:
+    #             add_quantity(lines, "Fat", macros.fat.total)
+
+    #             for field in fields(macros.fat):
+    #                 if field.name != "total":
+    #                     add_quantity(
+    #                         lines,
+    #                         field.name.replace("_", " ").capitalize(),
+    #                         getattr(macros.fat, field.name),
+    #                         indent=4,
+    #                     )
+
+    #         if macros.carbohydrate is not None:
+    #             add_quantity(
+    #                 lines,
+    #                 "Carbohydrate",
+    #                 macros.carbohydrate.total,
+    #             )
+
+    #             for field in fields(macros.carbohydrate):
+    #                 if field.name != "total":
+    #                     add_quantity(
+    #                         lines,
+    #                         field.name.replace("_", " ").capitalize(),
+    #                         getattr(macros.carbohydrate, field.name),
+    #                         indent=4,
+    #                     )
+
+    #         for name in ("protein", "potassium", "cholesterol", "sodium"):
+    #             add_quantity(
+    #                 lines,
+    #                 name.capitalize(),
+    #                 getattr(macros, name),
+    #             )
+
+    #     micros = nutrients.micronutrients_percent
+
+    #     if micros is not None:
+    #         micro_lines = []
+
+    #         for field in fields(micros):
+    #             add_quantity(
+    #                 micro_lines,
+    #                 field.name.replace("_", " ").capitalize(),
+    #                 getattr(micros, field.name),
+    #             )
+
+    #         if micro_lines:
+    #             lines.append("Micronutrients (% daily value):")
+    #             lines.extend(micro_lines)
+
+    #     return "\n".join(lines)
+
 def parse_foods():
     with open("data/products.json", "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -358,10 +444,82 @@ def build_nutrient_matrix(food_items, nutrient_names=tuple(NUTRIENT_PATHS)):
     A = np.column_stack(columns)   # shape: (n_nutrients, n_foods)
     return A, food_names, np.array(serving_grams)
 
-def get_details(food_name):
-    foods = parse_foods()
-
+def get_details(food_name, foods):
     for food in foods:
         if food.name:
             if food_name == food.name:
                 return food
+
+import re
+
+from models.food import extract_measurement
+
+
+def consumption_price(food, amount: float) -> float | None:
+    """
+    Calculate cost using comparison_prices.
+
+    `amount` uses the same unit as food.nutrients.per:
+    - serving in g  -> amount in g
+    - serving in ml -> amount in ml
+    - serving in L  -> amount in L
+    """
+    if amount < 0:
+        raise ValueError("Consumption amount cannot be negative.")
+
+    if amount == 0:
+        return 0.0
+
+    if food.nutrients is None or not food.nutrients.per:
+        return None
+
+    _, amount_unit = extract_measurement(food.nutrients.per)
+
+    if amount_unit is None:
+        return None
+
+    units = {
+        "g": ("mass", 1.0),
+        "kg": ("mass", 1000.0),
+        "lb": ("mass", 453.59237),
+        "oz": ("mass", 28.349523125),
+        "ml": ("volume", 1.0),
+        "l": ("volume", 1000.0),
+    }
+
+    amount_unit = amount_unit.strip().lower()
+
+    if amount_unit not in units:
+        return None
+
+    amount_type, amount_factor = units[amount_unit]
+    base_amount = amount * amount_factor
+
+    for comparison in food.comparison_prices:
+        if comparison.value is None or not comparison.unit:
+            continue
+
+        unit = comparison.unit.strip().lower()
+        unit = re.sub(r"^(?:/|per\s+)\s*", "", unit)
+
+        match = re.fullmatch(
+            r"(\d+(?:\.\d+)?)?\s*(kg|g|lb|oz|ml|l)",
+            unit,
+        )
+
+        if match is None:
+            continue
+
+        comparison_quantity = float(match.group(1) or 1)
+        comparison_unit = match.group(2)
+        comparison_type, comparison_factor = units[comparison_unit]
+
+        if comparison_type != amount_type:
+            continue
+
+        base_quantity = comparison_quantity * comparison_factor
+
+        if base_quantity > 0:
+            return comparison.value * base_amount / base_quantity
+
+    return None

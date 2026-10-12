@@ -3,7 +3,7 @@ from datetime import datetime, date
 from typing import Literal
 from difflib import get_close_matches
 
-from models.food import Macronutrients, MicronutrientsPercent, Quantity, FatBreakdown, CarbohydrateBreakdown
+from models.food import Macronutrients, MicronutrientsPercent, Quantity, FatBreakdown, CarbohydrateBreakdown, consumption_price
 from dataclasses import dataclass, asdict, fields, replace
 
 import os
@@ -70,6 +70,7 @@ class ConsumptionRecord:
     calories: int
     macronutrients: Macronutrients
     micronutrients_percent: MicronutrientsPercent
+    price: float | None = None
 
     def multiply(self, multiplier):
         result = ConsumptionRecord(
@@ -78,7 +79,8 @@ class ConsumptionRecord:
             amount=self.amount * multiplier,
             calories=self.calories * multiplier,
             macronutrients=self.macronutrients.multiply(multiplier),
-            micronutrients_percent=self.micronutrients_percent.multiply(multiplier)
+            micronutrients_percent=self.micronutrients_percent.multiply(multiplier),
+            price=(self.price * multiplier if self.price is not None else None),
         )
 
         return result
@@ -97,20 +99,33 @@ class ConsumptionRecord:
                 MicronutrientsPercent,
                 data["micronutrients_percent"],
             ),
+            price=(
+                float(data["price"])
+                if data.get("price") not in (None, "")
+                else None
+            ),
         )
 
     @classmethod
     def construct_consumption(cls, name, amount, food_list, cutoff):
-        """food_list is expected to have items of FoodItem"""
+        """Construct a consumption record for an amount in grams."""
         food_names = {
-            food.name: food 
-            for food in food_list 
+            food.name: food
+            for food in food_list
             if food.name is not None
         }
 
         key = closest_string(name, list(food_names), cutoff)
+
+        if key is None:
+            raise ValueError(f"No food matched {name!r}.")
+
         food = food_names[key]
-        calories, macronutrients, micronutrients_percent = food.nutrients.compute_amount(amount)
+        price = consumption_price(food, amount)
+
+        calories, macronutrients, micronutrients_percent = (
+            food.nutrients.compute_amount(amount)
+        )
 
         return cls(
             date=date.today(),
@@ -118,29 +133,67 @@ class ConsumptionRecord:
             amount=amount,
             calories=calories,
             macronutrients=macronutrients,
-            micronutrients_percent=micronutrients_percent
+            micronutrients_percent=micronutrients_percent,
+            price=consumption_price(food, amount),
         )
 
+
     def to_csv(self, path):
-        # Match the path handling in your WorkoutRecord.
         root = os.path.dirname(os.getcwd())
         csv_path = os.path.join(root, path)
 
-        # Create the destination folder if needed.
         os.makedirs(os.path.dirname(csv_path), exist_ok=True)
+
+        fieldnames = [
+            "date",
+            "item",
+            "amount",
+            "calories",
+            "macronutrients",
+            "micronutrients_percent",
+            "price",
+        ]
 
         write_header = (
             not os.path.exists(csv_path)
             or os.path.getsize(csv_path) == 0
         )
 
+        if not write_header:
+            with open(csv_path, "r", newline="", encoding="utf-8") as file:
+                existing_header = next(csv.reader(file), [])
+
+            if existing_header != fieldnames:
+                raise ValueError(
+                    "CSV header does not match the new ConsumptionRecord "
+                    "schema. Add a 'price' column with blank values to the "
+                    "existing file, or write to a new file."
+                )
+
         with open(csv_path, "a", newline="", encoding="utf-8") as file:
-            writer = csv.writer(file)
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
 
             if write_header:
-                writer.writerow(["date","item","amount","calories","macronutrients","micronutrients_percent"])
+                writer.writeheader()
 
-            writer.writerow([self.date, self.item, self.amount, self.calories, json.dumps(asdict(self.macronutrients)), json.dumps(asdict(self.micronutrients_percent))])
+            writer.writerow({
+                "date": self.date.isoformat(),
+                "item": self.item,
+                "amount": self.amount,
+                "calories": self.calories,
+                "macronutrients": json.dumps(
+                    asdict(self.macronutrients)
+                    if self.macronutrients is not None
+                    else None
+                ),
+                "micronutrients_percent": json.dumps(
+                    asdict(self.micronutrients_percent)
+                    if self.micronutrients_percent is not None
+                    else None
+                ),
+                "price": self.price,
+            })
+
     def __add__(self, other):
         if not isinstance(other, ConsumptionRecord):
             return NotImplemented
@@ -160,6 +213,11 @@ class ConsumptionRecord:
                 self.micronutrients_percent,
                 other.micronutrients_percent,
             ),
+            price=(
+                self.price + other.price
+                if self.price is not None and other.price is not None
+                else None
+            ),
         )
 
     @classmethod
@@ -176,6 +234,11 @@ class ConsumptionRecord:
                 MicronutrientsPercent,
                 json.loads(row["micronutrients_percent"]),
             ),
+            price=(
+                float(row["price"])
+                if row.get("price") not in (None, "")
+                else None
+            ),
         )
 
     def __repr__(self):
@@ -191,9 +254,16 @@ class ConsumptionRecord:
             if formatted is not None:
                 lines.append(f"{' ' * indent}{label}: {formatted}")
 
+        price_display = (
+            f"${self.price:,.2f}"
+            if self.price is not None
+            else "Unknown"
+        )
+
         lines = [
             f"{self.item} | {self.date.isoformat()}",
             f"Amount: {self.amount:,.2f}",
+            f"Price: {price_display}",
             f"Calories: {self.calories:,.2f}",
         ]
 
@@ -346,6 +416,7 @@ def zero_consumption_record(date=date.today()) -> ConsumptionRecord:
             MicronutrientsPercent,
             "%",
         ),
+        price=0.0
     )
 
 def quantity_from_dict(data):
